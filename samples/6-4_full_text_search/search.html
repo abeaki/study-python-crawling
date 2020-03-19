@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Elasticsearchによるブログ記事の検索</title>
+</head>
+<body>
+<form id="search">
+<input type="text" id="query">
+<input type="submit" value="検索する">
+</form>
+<ul id="results"></ul>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script>
+$('#search').submit(function(e) {
+	e.preventDefault();
+	var data = {
+		"query": {
+			"simple_query_string": {
+				"query": $('#query').val()
+			}
+		}
+	};
+	$.get('http://localhost:9200/blogs/blogpost/_search', data, function(response) {
+		console.log(response);
+	})
+});
+</script>
+</body>
+</html>

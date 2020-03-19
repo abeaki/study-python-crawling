@@ -1,0 +1,29 @@
+RewriteEngine on
+RewriteBase /
+
+# クエリストリングがある場合は404
+RewriteCond %{QUERY_STRING} start=
+RewriteRule .* - [R=404,L]
+
+# 書籍の表紙画像にダミーを返す
+RewriteRule ^assets/images/gdp/\d+/[^/]+\.jpg assets/dummy_w300.jpg [L]
+
+# /dp で /dp/のコンテンツを返す
+DirectorySlash off
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*[^/])$ $1/ [L]
+
+# htmlのContent-Typeにcharsetをつける
+AddType "text/html; charset=UTF-8" html
+
+# 拡張子なしのファイルをHTMLとして扱う
+DefaultType "text/html; charset=UTF-8"
+
+# 拡張子のないファイルを含む全ページで完全一致するパスのみを返す
+AcceptPathInfo off
+
+# ディレクトリのファイル一覧を表示しない（さくらのレンタルサーバ向けの書き方）
+DirectoryIndex index.html .ht
+
+# 404のページをカスタマイズ
+ErrorDocument 404 /404.html

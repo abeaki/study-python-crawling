@@ -1,0 +1,5 @@
+tweepy
+bigquery-python
+oauth2client==1.5.2
+pyopenssl
+google-api-python-client==1.4.2

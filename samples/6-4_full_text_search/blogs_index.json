@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "kuromoji_analyzer": {
+          "tokenizer": "kuromoji_tokenizer"
+        }
+      }
+    }
+  },
+  "mappings": {
+    "blogpost": {
+      "_all": { "analyzer": "kuromoji_analyzer" },
+      "properties": {
+        "url": { "type": "string" },
+        "title": { "type": "string", "analyzer": "kuromoji_analyzer" },
+        "content": { "type": "string", "analyzer": "kuromoji_analyzer" }
+      }
+    }
+  }
+}

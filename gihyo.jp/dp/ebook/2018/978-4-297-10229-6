@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>今すぐ使えるかんたんEx iPad プロ技BESTセレクション | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="iOS 12でさまざまな機能が増えたiPadの設定や使いこなしテクニックを277掲載！　2018年秋発売のiPad Proも含めた現行のiPadに対応しています。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store1122.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="今すぐ使えるかんたんEx iPad プロ技BESTセレクション | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="iOS 12でさまざまな機能が増えたiPadの設定や使いこなしテクニックを277掲載！　2018年秋発売のiPad Proも含めた現行のiPadに対応しています。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2018/978-4-297-10229-6"/>
+  <meta property="og:image" content="//image.gihyo.co.jp/assets/images/gdp/2018/978-4-297-10229-6.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">今すぐ使えるかんたん<wbr/>Ex iPad プロ技<wbr/>BEST<wbr/>セレクション</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="//image.gihyo.co.jp/assets/images/gdp/2018/978-4-297-10229-6.jpg" alt="今すぐ使えるかんたんEx iPad プロ技BESTセレクション"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">リンクアップ　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2018-12-21">2018年12月21日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2018-12-21">2018年12月21日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2019/978-4-297-10228-9" target="_blank">2018年12月21日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">1,780円 <a id="pid402382" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">320</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2018/978-4-297-10229-6" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2018/978-4-297-10229-6" data-text="今すぐ使えるかんたんEx iPad プロ技BESTセレクション #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2018/978-4-297-10229-6" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2018/978-4-297-10229-6"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2018/978-4-297-10229-6" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>iOS 12でさまざまな機能が増えたiPadの設定や使いこなしテクニックを277掲載！　2018年秋発売のiPad Proも含めた現行のiPadに対応しています。</p><h3>こんな方におすすめ</h3>
+<ul><li>新しくiPadを購入した人，<wbr/>既存のiPadをiOS 12にアップデートした人</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="38677">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章 これだけは知っておきたい！ iPadの基本テクニック</h3>
+<ul class="toc">
+<li>001 iPadの種類を確認する</li>
+<li>002 iPadの電源をオン・オフにする</li>
+<li>003 iPadを操作する</li>
+<li>004 iPadをスリープモードにする</li>
+<li>005 スリープモードになるまでの時間を変更する</li>
+<li>006 ロック画面を解除する</li>
+<li>007 タップやロック時の音を消す</li>
+<li>008 日付や時刻を設定する</li>
+<li>009 アプリを起動する</li>
+<li>010 アプリ起動中にDockを表示する</li>
+<li>011 コントロールセンターを表示する</li>
+<li>012 アプリを切り替える</li>
+<li>013 通知を確認する</li>
+<li>014 ホーム画面のアイコン配置を変える</li>
+<li>015 ホーム画面にフォルダを作る</li>
+<li>016 フォルダにアイコンを追加する</li>
+<li>017 フォルダ名を変更する</li>
+<li>018 壁紙を変更する</li>
+<li>019 画面の向きを固定する</li>
+<li>020 ホーム画面を初期状態に戻す</li>
+<li>021 パスコードを設定する</li>
+<li>022 iPadに指紋認証を登録する</li>
+<li>023 iPad Proに顔認証を登録する</li>
+<li>024 指紋認証，顔認証でロック画面を解除する</li>
+<li>025 Wi-Fiに接続する</li>
+<li>026 Wi-Fiを切断する</li>
+<li>027 Wi-Fiの「接続の確認」を表示しないようにする</li>
+<li>028 Apple IDを作成する</li>
+<li>029 Apple IDに支払い情報を登録する</li>
+<li>030 クレジットカード以外の支払い方法を利用する</li>
+<li>031 Apple IDに登録した個人情報を変更する</li>
+<li>032 パスワードを忘れたApple IDを復活させる</li>
+<li>033 アプリをインストールする</li>
+<li>034 指紋認証，顔認証でアプリをインストールする</li>
+<li>035 アプリを削除する</li>
+<li>036 ウィジェットを利用する</li>
+<li>037 iOSのバージョンを確認する</li>
+<li>038 iOSをバージョンアップする</li>
+
+</ul>
+<h3>第2章 iPadを快適に使いこなす 入力のテクニック</h3>
+<ul class="toc">
+<li>039 キーボードを表示する・隠す</li>
+<li>040 キーボードの種類を切り替える</li>
+<li>041 キーボードの位置を変更する</li>
+<li>042 キーボードを分割・分割を解除する</li>
+<li>043 キーボードが分割されないようにする</li>
+<li>044 キーボードの表示順を変更する</li>
+<li>045 別の言語のキーボードを使う</li>
+<li>046 必要ないキーボードを削除する</li>
+<li>047 別の日本語入力アプリを使う</li>
+<li>048 数字や記号をかんたんに入力する</li>
+<li>049 表示されていない記号をかんたんに入力する</li>
+<li>050 記号を全角で入力する</li>
+<li>051 日付や時間をすばやく入力する</li>
+<li>052 音声で文章を入力する</li>
+<li>053 音声入力で句読点や「」（），改行を入力する</li>
+<li>054 2本指でかんたんに文章を選択する</li>
+<li>055 2本指でカーソルを自由に操作する</li>
+<li>056 英語の予測変換を無効にする</li>
+<li>057 直前の入力操作をキャンセルする</li>
+<li>058 大文字が勝手に入力されるのを止める</li>
+<li>059 よく使う単語を登録する</li>
+
+</ul>
+<h3>第3章 インターネットで情報閲覧＆検索 Safariとインターネットのテクニック</h3>
+<ul class="toc">
+<li>060 Webページの先頭まで一瞬で戻る</li>
+<li>061 リンク先に移動せずにWebページを開く</li>
+<li>062 前のWebページに一気に戻る</li>
+<li>063 以前見ていたページをもう一度表示する</li>
+<li>064 Webページの文章だけを表示する</li>
+<li>065 うっかり閉じてしまったタブを再度表示する</li>
+<li>066 開いているタブをまとめて閉じる</li>
+<li>067 パソコン版のWebページを表示する</li>
+<li>068 広告をブロックしてWebページを見る</li>
+<li>069 Webページ内の単語の意味を調べる</li>
+<li>070 Webページ内の文字を検索する</li>
+<li>071 検索エンジンを変更する</li>
+<li>072 ユーザー名とパスワードを自動入力する</li>
+<li>073 クレジットカードの入力をカメラで行う</li>
+<li>074 Webページをブックマークに登録する</li>
+<li>075 ブックマークを整理する</li>
+<li>076 お気に入りバーを表示する</li>
+<li>077 ホーム画面にWebページを登録する</li>
+<li>078 リーディングリストにWebページを登録する</li>
+<li>079 Safari以外のWebブラウザを使う</li>
+<li>080 閲覧履歴を削除する</li>
+<li>081 Cookieを削除する</li>
+<li>082 子どもがWebブラウザを使えないようにする</li>
+
+</ul>
+<h3>第4章 撮った写真を大画面で閲覧する 写真・動画のテクニック</h3>
+<ul class="toc">
+<li>083 撮影時にピントや露出を調整する</li>
+<li>084 連続写真を撮影する</li>
+<li>085 さまざまな撮影モードを利用する</li>
+<li>086 セルフタイマーを利用する</li>
+<li>087 iCloud写真とマイフォトストリームの違いを確認する</li>
+<li>088 iCloud写真を有効にする</li>
+<li>089 iCloud写真でオリジナルをダウンロードする</li>
+<li>090 マイフォトストリームを無効にする</li>
+<li>091 撮影した写真を閲覧する</li>
+<li>092 写真の情報を確認する</li>
+<li>093 Live Photosで撮影した写真を閲覧する</li>
+<li>094 Live Photosから静止画像を作る</li>
+<li>095 Live Photosを無効にする</li>
+<li>096 削除した写真をもとに戻す</li>
+<li>097 撮影写真の明るさを調整する</li>
+<li>098 写真を編集する</li>
+<li>099 撮った写真を壁紙に設定する</li>
+<li>100 撮った写真を連絡先に設定する</li>
+<li>101 新しいアルバムを作る</li>
+<li>102 アルバムに写真を追加する</li>
+<li>103 アルバムを削除する</li>
+<li>104 アルバムの順番を変更する</li>
+<li>105 写真に位置情報を付加する</li>
+<li>106 写真の撮影場所を調べる</li>
+<li>107 写真の位置情報を削除する</li>
+<li>108 共有のおすすめ写真を確認する</li>
+<li>109 iPadをデジタルフォトフレームにする</li>
+<li>110 動画をトリミングする</li>
+<li>111 スローモーション動画のスロー再生範囲を変更する</li>
+<li>112 カメラでQRコードを読み取る</li>
+<li>113 iPadの動画や写真をパソコンに取り込む</li>
+<li>114 パソコンの動画や写真をiPadに取り込む</li>
+
+</ul>
+<h3>第5章 楽しむ，便利に使う 音楽とサウンドのテクニック</h3>
+<ul class="toc">
+<li>115 パソコンにiTunesをインストールする</li>
+<li>116 パソコンのiTunesにiPadを登録する</li>
+<li>117 音楽CDをiPadに取り込む</li>
+<li>118 アルバムジャケットを表示する</li>
+<li>119 好きな音楽やアルバムだけを取り込む</li>
+<li>120 お気に入りの曲を好きな順番で再生する</li>
+<li>121 曲を好みの音質に変える</li>
+<li>122 曲を削除する</li>
+<li>123 曲をジャンル順に表示する</li>
+<li>124 ロックを解除せずに再生中の曲を操作する</li>
+<li>125 音楽を聴きながらWebページを閲覧する</li>
+<li>126 曲ごとの音量をそろえる</li>
+<li>127 Geniusプレイリストを有効にする</li>
+<li>128 音楽の再生をタイマーで停止する</li>
+<li>129 iTunesカードをかんたんに登録する</li>
+<li>130 iTunes Storeで曲を購入する</li>
+<li>131 着信・通知音量を調整する</li>
+<li>132 音量を音量ボタンで調整する</li>
+<li>133 Apple Musicを利用する</li>
+<li>134 Apple Musicの利用を停止して，同じ環境に戻す</li>
+<li>135 Apple Musicの曲をダウンロードする</li>
+
+</ul>
+<h3>第6章 友達といつでもつながる メール，連絡先，FaceTimeのテクニック</h3>
+<ul class="toc">
+<li>136 メールのアカウントを設定する</li>
+<li>137 メール送信時にアカウントを変更する</li>
+<li>138 不要になったメールアカウントを削除する</li>
+<li>139 メールボックスを作る</li>
+<li>140 メールボックスにメールを移動する</li>
+<li>141 メールでCcやBccを使う</li>
+<li>142 メールで署名を使う</li>
+<li>143 メールに添付する写真の画像サイズを変更する</li>
+<li>144 写真や動画をすばやくメールに添付する</li>
+<li>145 作成途中のメールを保存する</li>
+<li>146 VIPリストを利用する</li>
+<li>147 重要なメールに目印を付ける</li>
+<li>148 メールを既読・未開封にする</li>
+<li>149 削除したメールをもとに戻す</li>
+<li>150 メールに添付された画像ファイルを保存する</li>
+<li>151 メールを宛先アドレス全員に返信する</li>
+<li>152 受信メールから連絡先に登録する</li>
+<li>153 メールで自動的に画像を読み込まないようにする</li>
+<li>154 メールなどの本文を通知に表示しないようにする</li>
+<li>155 Gmailを利用する</li>
+<li>156 メッセージで声や現在地を送る</li>
+<li>157 メッセージで複数の写真や動画をかんたんに送る</li>
+<li>158 メッセージに効果を付ける</li>
+<li>159 受信したメッセージにリアクションを送る</li>
+<li>160 手書きのメッセージを送る</li>
+<li>161 アニ文字とミー文字を利用する</li>
+<li>162 メッセージの送受信時間を調べる</li>
+<li>163 メッセージの発着信元の情報を変更する</li>
+<li>164 複数の人に同時にメッセージを送る</li>
+<li>165 相手がメッセージを見たかどうか確認する</li>
+<li>166 メッセージに添付された写真を保存する</li>
+<li>167 メッセージの通知音を変更する</li>
+<li>168 メッセージの添付写真や動画をまとめて見る</li>
+<li>169 メッセージでWebページを共有する</li>
+<li>170 連絡先に項目を追加する</li>
+<li>171 連絡先に写真を表示する</li>
+<li>172 連絡先からメールを作成する</li>
+<li>173 FaceTimeでビデオ通話をする</li>
+<li>174 多人数でFaceTimeを利用する</li>
+<li>175 ビデオ通話中にほかのアプリを利用する</li>
+<li>176 FaceTimeで音声通話をする</li>
+
+</ul>
+<h3>第7章 さまざまなアプリで機能を拡張する アプリ利用のテクニック</h3>
+<ul class="toc">
+<li>177 2つのアプリを同時に利用する</li>
+<li>178 アプリ利用時に別のアプリを表示する</li>
+<li>179 2つのアプリでコンテンツをやり取りする</li>
+<li>180 アプリをバックアップする</li>
+<li>181 「Appのバックグラウンド更新」をオフにする</li>
+<li>182 気になったアプリや曲をあとでインストールする</li>
+<li>183 有料アプリをプレゼントする</li>
+<li>184 App Storeのアカウントを切り替える</li>
+<li>185 リマインダーにタスクを登録する</li>
+<li>186 リマインダーのタスクを管理する</li>
+<li>187 リマインダーにToDoリストを追加する</li>
+<li>188 カレンダーを月曜日始まりや和暦表示にする</li>
+<li>189 カレンダーで作成した予定を編集する</li>
+<li>190 新しいカレンダーを追加する</li>
+<li>191 カレンダーをGoogle カレンダーと同期する</li>
+<li>192 カレンダーを削除する</li>
+<li>193 カレンダーを共有・共有停止する</li>
+<li>194 カレンダーを公開する</li>
+<li>195 マップで目的地をすばやく表示する</li>
+<li>196 マップで経路検索をする</li>
+<li>197 よく使うスポットを登録する</li>
+<li>198 Googleマップを使う</li>
+<li>199 アラームを設定する</li>
+<li>200 タイマー機能を利用する</li>
+<li>201 メモを活用する</li>
+<li>202 メモを編集する</li>
+<li>203 メモを削除する</li>
+<li>204 iPad内のファイルを管理する</li>
+<li>205 iCloudやDropboxのファイルを管理する</li>
+<li>206 寸法をiPadで測る</li>
+<li>207 近くのレストランをSiriで探す</li>
+<li>208 話しかけるだけでSiriを起動する</li>
+<li>209 スリープ状態でSiriを使用する</li>
+<li>210 Siriをカスタマイズする</li>
+<li>211 ボイスメモを利用する</li>
+
+</ul>
+<h3>第8章 クラウドがあればパソコン要らず iCloudの活用テクニック</h3>
+<ul class="toc">
+<li>212 iCloudを利用する</li>
+<li>213 iCloudで必要な項目だけを同期する</li>
+<li>214 iCloud Driveでファイルを一括管理する</li>
+<li>215 iCloud Driveに保存したWordファイルを編集する</li>
+<li>216 iCloud Driveに保存したExcelファイルを編集する</li>
+<li>217 ファミリー共有を設定する</li>
+<li>218 ファミリー共有に家族を追加する</li>
+<li>219 購入したコンテンツを共有する</li>
+<li>220 写真やカレンダーを共有する</li>
+<li>221 家族の現在地がわかるようにする</li>
+<li>222 子どものコンテンツ購入を承認制にする</li>
+<li>223 マイフォトストリームを利用する</li>
+<li>224 パソコンでiCloud写真のオリジナルデータを保存する</li>
+<li>225 WindowsでiCloudを利用する</li>
+<li>226 失くしたiPadを探す</li>
+<li>227 失くしたiPadで音を鳴らす・ロックをかける</li>
+<li>228 iCloudに手動でバックアップを取る</li>
+<li>229 iCloudのバックアップから復元する</li>
+<li>230 iCloudのバックアップを削除する</li>
+<li>231 iCloudの容量を確認する</li>
+<li>232 iCloudの容量を増やす</li>
+<li>233 iCloudアカウントを削除する</li>
+<li>234 iCloudアカウントを変更する</li>
+
+</ul>
+<h3>第9章 iPadをもっと使いこなす 設定・回復のテクニック</h3>
+<ul class="toc">
+<li>235 Apple Pencilを利用する</li>
+<li>236 Apple Payを設定する</li>
+<li>237 Apple Payを利用する</li>
+<li>238 画面を撮影してメモを書く</li>
+<li>239 検索画面でニュースや新しいアプリをチェックする</li>
+<li>240 検索画面で計算を行う</li>
+<li>241 検索画面の連絡先を非表示にする</li>
+<li>242 iPadの使用可能容量を確認する</li>
+<li>243 バッテリーの残量を確認する</li>
+<li>244 バッテリーを長持ちさせる</li>
+<li>245 アプリごとの容量を確認する</li>
+<li>246 アプリの使用時間を確認する</li>
+<li>247 ロック画面の通知から操作する</li>
+<li>248 ロック画面の通知を非表示にする</li>
+<li>249 「おやすみモード」を利用する</li>
+<li>250 通知センターからメッセージやメールを操作する</li>
+<li>251 通知センターに表示する項目を変更する</li>
+<li>252 デバイス名を変更する</li>
+<li>253 文字サイズを変更する</li>
+<li>254 画面の明るさを変更する</li>
+<li>255 表示を日本語に戻す</li>
+<li>256 操作時のアニメーションを切る</li>
+<li>257 コントロールセンターの設定を変更する</li>
+<li>258 画面表示を拡大する</li>
+<li>259 パスワード管理アプリを利用する</li>
+<li>260 2ファクタ認証でセキュリティを高める</li>
+<li>261 アプリごとに位置情報サービスを設定する</li>
+<li>262 「追跡型広告を制限」をオンにする</li>
+<li>263 パソコンと自動的に同期しないようにする</li>
+<li>264 iTunesにバックアップする</li>
+<li>265 iPadを強制再起動する</li>
+<li>266 iPadをリセットする</li>
+<li>267 iPadを出荷時の状態に戻す</li>
+<li>268 ホームボタンを使わず操作する</li>
+<li>269 AirDropで写真や連絡先を共有する</li>
+<li>270 iPadに周辺機器を接続する</li>
+<li>271 iPad ProでiPhoneを充電する</li>
+<li>272 iPad Proにさまざまな機器を接続する</li>
+<li>273 iPadでキーボードを使う</li>
+<li>274 iPadのデータをプリンタなしで印刷する</li>
+<li>275 Webページや写真を印刷する</li>
+<li>276 iPadを修理に出す</li>
+<li>277 古いiPadを処分する</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2019 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2018\/978-4-297-10229-6","path":"\/dp\/ebook\/2018\/978-4-297-10229-6","targetId":"978-4-297-10229-6","parent":"\/dp\/genre\/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

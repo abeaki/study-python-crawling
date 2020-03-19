@@ -1,0 +1,841 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>［改訂新版］プログラマのための文字コード技術入門 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="ソフトウェアエンジニアをおもな対象に，文字コードの基本をまとめた解説書。本書前半では，「文字」そのものと「文字コード」の歴史を少しずつ解きほぐしながら，文字コードの原理原則，変遷，主要な仕様の要点をはじめとした基礎知識を丁寧に解説。さらに後半では，Unicode/UTF-8/UTF-16，日本の文字コード規格，文字化けのメカニズム，コード変換の基礎，Java，Rubyを例にプログラミング言語における文字コードの扱い，はまりやすい落とし穴とその対処など，広くソフトウェア開発に携わるエンジニアの方々へ，知っておきたい技術情報を厳選してお届けします。今回の改訂第2版では，初版の骨格はそのままに，9年間の変化を反映して，規格や文字政策，プログラミング言語・API等の最新版に追随するよう，全面的に加筆修正しました。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store1122.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="［改訂新版］プログラマのための文字コード技術入門 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="ソフトウェアエンジニアをおもな対象に，文字コードの基本をまとめた解説書。本書前半では，「文字」そのものと「文字コード」の歴史を少しずつ解きほぐしながら，文字コードの原理原則，変遷，主要な仕様の要点をはじめとした基礎知識を丁寧に解説。さらに後半では，Unicode/UTF-8/UTF-16，日本の文字コード規格，文字化けのメカニズム，コード変換の基礎，Java，Rubyを例にプログラミング言語における文字コードの扱い，はまりやすい落とし穴とその対処など，広くソフトウェア開発に携わるエンジニアの方々へ，知っておきたい技術情報を厳選してお届けします。今回の改訂第2版では，初版の骨格はそのままに，9年間の変化を反映して，規格や文字政策，プログラミング言語・API等の最新版に追随するよう，全面的に加筆修正しました。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2018/978-4-297-10292-0"/>
+  <meta property="og:image" content="//image.gihyo.co.jp/assets/images/gdp/2018/978-4-297-10292-0.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/WEB%2BDB%20PRESS%20plus">WEB+DB PRESS plus</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">［改訂新版］<wbr/>プログラマのための文字コード技術入門</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="//image.gihyo.co.jp/assets/images/gdp/2018/978-4-297-10292-0.jpg" alt="［改訂新版］プログラマのための文字コード技術入門"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">矢野啓介　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2018-12-22">2018年12月22日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2018-12-22">2018年12月22日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2019/978-4-297-10291-3" target="_blank">2018年12月28日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">2,680円 <a id="pid402384" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">400</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2018/978-4-297-10292-0" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2018/978-4-297-10292-0" data-text="［改訂新版］プログラマのための文字コード技術入門 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2018/978-4-297-10292-0" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2018/978-4-297-10292-0"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2018/978-4-297-10292-0" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>ソフトウェアエンジニアをおもな対象に，<wbr/>文字コードの基本をまとめた解説書。</p>
+
+<p>本書前半では，<wbr/>「文字」そのものと「文字コード」の歴史を少しずつ解きほぐしながら，<wbr/>文字コードの原理原則，<wbr/>変遷，<wbr/>主要な仕様の要点をはじめとした基礎知識を丁寧に解説。さらに後半では，<wbr/>Unicode/UTF-8/UTF-16，<wbr/>日本の文字コード規格，<wbr/>文字化けのメカニズム，<wbr/>コード変換の基礎，<wbr/>Java，<wbr/>Rubyを例にプログラミング言語における文字コードの扱い，<wbr/>はまりやすい落とし穴とその対処など，<wbr/>広くソフトウェア開発に携わるエンジニアの方々へ，<wbr/>知っておきたい技術情報を厳選してお届けします。</p>
+
+<p>今回の改訂第2版では，<wbr/>初版の骨格はそのままに，<wbr/>9年間の変化を反映して，<wbr/>規格や文字政策，<wbr/>プログラミング言語・<wbr/>API等の最新版に追随するよう，<wbr/>全面的に加筆修正しました。</p><h3>こんな方におすすめ</h3>
+<ul><li>ソフトウェアエンジニアの方々</li><li>日本語情報処理を扱うアプリケーションの開発者の方々</li><li>データフォーマットの設計にかかわる開発者の方々</li></ul>
+<h3>第2版改訂における，<wbr/>おもな変更点</h3>
+
+<p>第2版改訂に伴い，<wbr/>おもに以下の内容の追加・<wbr/>更新を行いました。</p>
+
+<ul>
+<li>2010年の改正常用漢字表に対応</li>
+<li>JIS X 0208とJIS X 0213の2012年改正に対応</li>
+<li>ISO/IEC 10646のUCS-4の変更に対応</li>
+<li>Unicodeに追加された変体仮名の説明</li>
+<li>Unicode 11に基づいた説明</li>
+<li>本書初版では標準化作業中だったUnicode絵文字を，<wbr/>最新版に基づいた説明に変更</li>
+<li>Webブラウザの動作例を2018年時点で使用されているバージョンに更新</li>
+<li>紹介するコマンドラインツールを最近よく使われるものに見直し</li>
+<li>HTML5の仕様を反映</li>
+<li>YAMLとJSONについて記述</li>
+<li>JavaおよびRubyの対象バージョンをアップデート</li>
+<li>文字化けのよくあるパターンを紹介</li>
+<li>Unicodeの標準化異体シーケンス（Standardized Variation Sequence）の説明を追加</li>
+<li>WebサイトやメールにおいてUTF-8の使用が増えたことを反映した修正</li>
+</ul><section id="sample"><h2>サンプル</h2><ul class="pdf"><li><a href="//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/9784297102913-01.pdf" target="_blank">サンプルPDFファイル1</a>（521KB）</li></ul>
+<a href="//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/9784297102913-01.jpg"><img src="//image.gihyo.co.jp/assets/images/reading.gif" data-image="//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/thumb/TH400_9784297102913-01.jpg,//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/9784297102913-01.jpg" width="400" height="533" alt="sample"/></a><a href="//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/9784297102913-02.jpg"><img src="//image.gihyo.co.jp/assets/images/reading.gif" data-image="//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/thumb/TH400_9784297102913-02.jpg,//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/9784297102913-02.jpg" width="400" height="533" alt="sample"/></a><a href="//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/9784297102913-03.jpg"><img src="//image.gihyo.co.jp/assets/images/reading.gif" data-image="//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/thumb/TH400_9784297102913-03.jpg,//image.gihyo.co.jp/assets/files/book/2019/978-4-297-10291-3/9784297102913-03.jpg" width="400" height="533" alt="sample"/></a></section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="38746">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章　文字とコンピュータ</h3>
+
+<h4>1.1　コンピュータで文字を扱う基本</h4>
+<ul class="toc">
+<li>文字コードとフォント</li>
+<li>図形を交換するのでなく符号を交換する</li>
+<li>文字の形の細部は伝わらない</li>
+</ul>
+<h4>1.2　文字を符号化するということ</h4>
+<ul class="toc">
+<li>コンピュータで情報を扱う基礎</li>
+<li>文字を符号化する例</li>
+</ul>
+<h4>1.3　文字集合と符号化文字集合</h4>
+<ul class="toc">
+<li>何文字必要か</li>
+<li>文字の集合</li>
+<li>文字の集合に符号を振る<ul class="toc">
+	<li>符号化文字集合とは</li>
+	<li>実用的な符号化文字集合の例</li>
+	<li>一意な符号化　文字コードの原則</li></ul></li>
+<li>符号化文字集合を実装するとは<ul class="toc">
+	<li>文字化け</li>
+	<li>外部コードと内部コード</li></ul></li>
+<li>規格における定義　符号化文字集合符号</li>
+</ul>
+<h4>1.4　制御文字　……文字ではない文字</h4>
+<ul class="toc">
+<li>文字コードにあるのは文字だけではない</li>
+<li>おもな制御文字</li>
+</ul>
+<h4>1.5　文字コードはなぜ複雑になるのか</h4>
+<ul class="toc">
+<li>文字コードを複雑化させる二つの理由<ul class="toc">
+	<li>過去の経緯の積み重ね</li>
+	<li>文字そのものの難しさ</li>
+	<li>文字コードの複雑さを理解するために</li></ul></li>
+</ul>
+<h4>1.6　まとめ</h4>
+
+
+
+<h3>第2章　文字コードの変遷</h3>
+
+<h4>2.1　最もシンプルな文字コード　……ASCIIISO/IEC 646</h4>
+<ul class="toc">
+<li>7ビットの1バイトコードで文字を表すASCII</li>
+<li>ASCIIの各国用の変種　各国語版ISO/IEC 646<ul class="toc">
+	<li>ISO/IEC 646とJIS X 0201</li></ul></li>
+</ul>
+<h4>2.2　文字コードの構造と拡張方法を定める　……ISO/IEC 2022</h4>
+<ul class="toc">
+<li>ISO/IEC 2022の登場　8ビットコード2バイトコード</li>
+<li>ASCIIを拡張する</li>
+<li>8ビットの使用　ISO/IEC 2022の枠組みCL/GLCR/GR<ul class="toc">
+	<li>符号化文字集合の呼び出しの概念</li></ul></li>
+<li>複数バイト文字集合</li>
+<li>符号化文字集合の組み合わせ・切り替え<ul class="toc">
+	<li>ISO/IEC 2022とエスケープシーケンス<ul class="toc">
+		<li>2022≠エスケープシーケンスによる切り替え</li></ul></li>
+	<li>ISO/IEC 2022と符号化方式</li></ul></li>
+</ul>
+<h4>2.3　2バイト符号化文字集合の実用化　……JIS X 0208各種符号化方式</h4>
+<ul class="toc">
+<li>JIS X 0208　漢字を扱う</li>
+<li>各種「符号化方式」の成立<ul class="toc">
+	<li>1バイトコードに2バイトコードを組み合わせたい</li>
+	<li>Shift_JISやEUC-JPISO-2022-JPの登場</li></ul></li>
+<li>東アジアでの普及</li>
+</ul>
+<h4>2.4　1バイト符号化文字集合の広がり　……ISO/IEC 8859Latin-1</h4>
+<ul class="toc">
+<li>ヨーロッパ各地域向けの文字コード<ul class="toc">
+	<li>ISO/IEC 8859ISO/IEC 8859-1Latin-1</li></ul></li>
+<li>1バイト文字集合の乱立</li>
+</ul>
+<h4>2.5　国際符号化文字集合の模索と成立　……UnicodeISO/IEC 10646</h4>
+<ul class="toc">
+<li>世界中の文字を一つの表に収める<ul class="toc">
+	<li>ISO/IEC 10646とUnicodeの誕生と統合</li></ul></li>
+<li>Unicodeの拡張と各種符号化方式の成立　UTF-16UTF-8</li>
+<li>国際符号化文字集合の現状<ul class="toc">
+	<li>Unicodeの使用状況　OSの内部コードやWebページとその他の状況</li></ul></li>
+</ul>
+<h4>2.6　まとめ</h4>
+<ul class="toc">
+<li>Column　字形と字体</li>
+<li>Column　常用漢字表の改正と文字コード</li>
+</ul>
+
+
+<h3>第3章　代表的な符号化文字集合</h3>
+
+<h4>3.1　ASCIIとISO/IEC 646　……最も基本的な1バイト文字集合</h4>
+<ul class="toc">
+<li>ASCIIとISO/IEC 646国際基準版</li>
+<li>各国版のISO/IEC 646</li>
+</ul>
+<h4>3.2　JIS X 0201　……ラテン文字と片仮名の1バイト文字集合</h4>
+<ul class="toc">
+<li>JIS X 0201の概要<ul class="toc">
+	<li>ラテン文字集合</li>
+	<li>JIS X 0201の片仮名集合濁点・半濁点</li></ul></li>
+<li>ASCIIとの違い　円記号とバックスラッシュオーバーラインとチルダ</li>
+</ul>
+<h4>3.3　JIS X 0208　……日本の最も基本的な2バイト文字集合</h4>
+<ul class="toc">
+<li>JIS X 0208の概要　ISO/IEC 2022準拠<ul class="toc">
+	<li>符号の構造　2バイトのビット組み合わせ</li></ul></li>
+<li>文字集合の特徴<ul class="toc">
+	<li>記号類</li>
+	<li>ギリシャ文字</li>
+	<li>キリル文字</li>
+	<li>ラテン文字</li>
+	<li>平仮名・片仮名</li>
+	<li>漢字　第1水準第2水準</li></ul></li>
+<li>過去の改正の概略<ul class="toc">
+	<li>1983年改正<ul class="toc">
+		<li>字体の変更（簡略化）と符号位置の入れ替え</li></ul></li>
+	<li>1990年改正</li>
+	<li>1997年改正　包摂規準<ul class="toc">
+		<li>包摂規準の明示</li>
+		<li>JIS X 0208（97JIS）の包摂規準の活用</li>
+		<li>JIS X 0208（97JIS）の包摂規準の生い立ち</li>
+		<li>漢字の包摂規準を理解する</li>
+		<li>漢字の典拠調査　幽霊漢字の退治</li></ul></li></ul></li>
+<li>JIS X 0208:1997の符号化方式</li>
+<li>外字・機種依存文字の問題</li>
+</ul>
+<h4>3.4　JIS X 0212　……補助漢字</h4>
+<ul class="toc">
+<li>JIS X 0212の概要</li>
+<li>文字集合の特徴<ul class="toc">
+	<li>非漢字</li></ul></li>
+<li>Column　「Unicodeで（他の符号化文字集合を）実装」という表現の問題<ul class="toc">
+	<li>漢字</li></ul></li>
+<li>JIS X 0212と符号化方式　Shift_JISで扱えない</li>
+</ul>
+<h4>3.5　JIS X 0213　……漢字第3・第4水準への拡張</h4>
+<ul class="toc">
+<li>JIS X 0213の概要<ul class="toc">
+	<li>漢字集合1面漢字集合2面</li></ul></li>
+<li>文字集合の特徴</li>
+<li>一般の印刷物でよく使われる記号類<ul class="toc">
+	<li>13区の機種依存文字と互換の文字</li>
+	<li>ラテン文字・発音記号<ul class="toc">
+		<li>日本語のローマ字表記に必要な文字</li>
+		<li>発音記号として使われる文字</li>
+		<li>その他のダイアクリティカルマーク付きの文字など</li>
+		<li>合成用のダイアクリティカルマーク</li></ul></li>
+	<li>ASCIIとの互換性のための文字</li>
+	<li>アイヌ語表記用片仮名</li>
+	<li>鼻濁音表記用の平仮名・片仮名など</li>
+	<li>漢字（第3・第4水準）<ul class="toc">
+		<li>地名や人名学校教科書に使われる漢字</li>
+		<li>収録された文字の収集にあたって</li>
+		<li>妛問題の字体の新規追加による解決</li>
+		<li>199の包摂規準</li>
+		<li>人名用漢字のすべて　JIS X 0208で包摂されていた微小な差を分離したもの</li>
+		<li>1983年改正で字体が大きく変更された漢字29文字の変更前の字体</li>
+		<li>漢字のへんやつくりなどの字体記述要素</li></ul></li></ul></li>
+<li>符号化方式<ul class="toc">
+	<li>符号化方式をめぐる論議　規定か参考か</li></ul></li>
+<li>2004年改正の影響　表外漢字字体表と例示字形<ul class="toc">
+	<li>Unicodeとの対応関係　表外漢字UCS互換</li></ul></li>
+<li>ソフトウェアのJIS X 0213対応状況</li>
+</ul>
+<h4>3.6　ISO/IEC 8859シリーズ　……欧米で広く使われる1バイト符号化文字集合</h4>
+<ul class="toc">
+<li>ISO/IEC 8859（シリーズ）の概要</li>
+<li>Latin-1　ISO/IEC 8859-1<ul class="toc">
+	<li>ノーブレークスペース（NBSP）とソフトハイフン（SHY）</li></ul></li>
+<li>Latin-2　ISO/IEC 8859-2</li>
+<li>その他のパート</li>
+</ul>
+<h4>3.7　UnicodeとISO/IEC 10646　……国際符号化文字集合</h4>
+<ul class="toc">
+<li>UnicodeおよびISO/IEC 10646（UCS）の概要</li>
+<li>符号の構造　UCS-4UCS-2BMP<ul class="toc">
+	<li>Unicodeの符号位置の表し方</li>
+	<li>基本多言語面（BMP）</li>
+	<li>その他の面<ul class="toc">
+		<li>面01　SMP</li>
+		<li>変体仮名</li>
+		<li>面02　SIP</li>
+		<li>面0E</li></ul></li></ul></li>
+<li>結合文字　1文字が1符号位置ではない</li>
+<li>既存の符号化文字集合との関係<ul class="toc">
+	<li>Unicodeにおける文字名の定義　各文字に一意な名前を与える</li></ul></li>
+<li>Column　ちょっと気になるUnicodeの文字名<ul class="toc">
+	<li>ISO/IEC 8859-1との関係</li>
+	<li>全角・半角形</li>
+	<li>漢字統合　CJK統合漢字<ul class="toc">
+		<li>原規格分離規則</li>
+		<li>統合漢字の数</li>
+		<li>漢字統合と適切なフォントの選択</li></ul></li>
+	<li>互換漢字<ul class="toc">
+		<li>互換漢字の領域</li>
+		<li>互換漢字と正規化</li></ul></li>
+	<li>JIS X 0213との関係　プログラムで処理する上での注意点<ul class="toc">
+		<li>❶BMP以外の面の漢字の存在</li>
+		<li>❷結合文字の使用の必要</li>
+		<li>❸互換漢字の正規化の問題</li></ul></li></ul></li>
+<li>絵文字<ul class="toc">
+	<li>絵文字とは</li>
+	<li>符号位置概要</li>
+	<li>複数符号位置による装飾</li>
+	<li>国旗の特殊な符号化</li>
+	<li>絵文字の形の違い</li>
+	<li>絵文字に未来はあるか</li></ul></li>
+<li>Column　UnicodeとUTF-8とUCS-2の関係</li>
+</ul>
+
+<h3>第4章　代表的な文字符号化方式</h3>
+
+<h4>4.1　JIS X 0201の符号化方式</h4>
+<ul class="toc">
+<li>JIS X 0201の符号化方式の使い方<ul class="toc">
+	<li>8ビット符号</li>
+	<li>7ビット符号</li></ul></li>
+</ul>
+<h4>4.2　JIS X 0208の符号化方式</h4>
+<ul class="toc">
+<li>JIS X 0208で定められた符号化方式</li>
+<li>漢字用7ビット符号<ul class="toc">
+	<li>符号の構造</li>
+	<li>漢字用7ビット符号の特徴</li>
+	<li>適した用途</li></ul></li>
+<li>EUC-JP<ul class="toc">
+	<li>符号の構造<ul class="toc">
+		<li>国際基準版・漢字用8ビット符号との関係</li></ul></li>
+	<li>EUC-JPの特徴と注意</li>
+	<li>重複符号化の問題</li>
+	<li>適した用途</li></ul></li>
+<li>ISO-2022-JP<ul class="toc">
+	<li>符号の構造</li>
+	<li>符号の性質</li>
+	<li>適した用途</li></ul></li>
+<li>Shift_JIS<ul class="toc">
+	<li>符号の構造</li>
+	<li>Shift_JISの計算方式</li>
+	<li>Shift_JISの問題点</li>
+	<li>重複符号化の問題</li>
+	<li>適した用途</li>
+	<li>機種依存文字付きの変種</li></ul></li>
+</ul>
+<h4>4.3　Unicodeの符号化方式</h4>
+<ul class="toc">
+<li>UTF概説</li>
+<li>UTF-16<ul class="toc">
+	<li>符号の構造</li>
+	<li>サロゲートペア</li>
+	<li>UTF-16の計算方法<ul class="toc">
+		<li>UCS-2との関係</li></ul></li>
+	<li>UTF-16のバイト順の問題　ビッグエンディアンとリトルエンディアン</li>
+	<li>BOM（バイト順マーク）</li>
+	<li>適した用途</li></ul></li>
+<li>UTF-32<ul class="toc">
+	<li>符号の構造<ul class="toc">
+		<li>UCS-4との関係</li></ul></li>
+	<li>UTF-32の特徴</li>
+	<li>適した用途</li></ul></li>
+<li>UTF-8<ul class="toc">
+	<li>符号の構造<ul class="toc">
+		<li>計算方法</li></ul></li>
+	<li>ASCIIとの互換性　UTF-8の特徴</li>
+	<li>冗長性の問題</li>
+	<li>BOM付きUTF-8の問題</li>
+	<li>CESU-8とModified UTF-8</li>
+	<li>適した用途</li></ul></li>
+<li>Column　機種依存文字における重複符号化</li>
+</ul>
+
+
+<h3>第5章　文字コードの変換と判別</h3>
+
+<h4>5.1　コード変換とは</h4>
+<ul class="toc">
+<li>なぜ変換が必要か</li>
+<li>変換のツール<ul class="toc">
+	<li>iconv<ul class="toc">
+		<li>変換できない場合</li></ul></li>
+	<li>nkf</li></ul></li>
+<li>変換の原則<ul class="toc">
+	<li>異なる文字集合体系の間の変換の問題</li></ul></li>
+<li>コード変換と文字変換</li>
+</ul>
+<h4>5.2　変換の実際　……変換における考え方</h4>
+<ul class="toc">
+<li>コード変換の処理方法</li>
+<li>アルゴリズム的な変換<ul class="toc">
+	<li>JIS X 0208の符号化方式の変換<ul class="toc">
+		<li>ISO-2022-JPとEUC-JPの間の変換 　エスケープシーケンスと0x80の足し引き</li>
+		<li>Shift_JISの関係する変換　区点番号を介した計算</li></ul></li>
+	<li>JIS X 0201とASCIIの違いの問題　Shift_JISの``0x5C````0x7E``<ul class="toc">
+		<li>文字コードの定義に忠実なコード変換とその問題</li></ul></li>
+	<li>Unicodeの符号化方式の変換<ul class="toc">
+		<li>UTF-8からの変換</li>
+		<li>UTF-16からの変換</li></ul></li></ul></li>
+<li>テーブルによる変換<ul class="toc">
+	<li>JIS X 0208とUnicodeの間の変換</li>
+	<li>JIS X 0208とASCII/JIS X 0201の間の変換<ul class="toc">
+		<li>JIS X 0201ラテン文字集合の変換の例題</li>
+		<li>ハイフンマイナスの問題</li>
+		<li>JIS X 0201片仮名集合の場合</li></ul></li>
+	<li>変換の必要性　使い勝手の向上のために</li></ul></li>
+</ul>
+<h4>5.3　文字コードの自動判別</h4>
+<ul class="toc">
+<li>自動判別の例<ul class="toc">
+	<li>判別のツール　nkf</li></ul></li>
+<li>なぜ自動判別できるか<ul class="toc">
+	<li>BOMによる判別</li>
+	<li>エスケープシーケンスによる判別</li>
+	<li>バイト列の特徴を読む　EUC-JPとShift_JISの判別例</li>
+	<li>自動判別を助けるテクニック</li></ul></li>
+<li>自動判別の限界</li>
+</ul>
+<h4>5.4　まとめ</h4>
+
+
+
+<h3>第6章　インターネットと文字コード</h3>
+
+<h4>6.1　電子メールと文字コード</h4>
+<ul class="toc">
+<li>メールの基本はASCII 　日本語は7ビットのISO-2022-JPで</li>
+<li>MIME<ul class="toc">
+	<li>メールを多言語に拡張する</li>
+	<li>charsetパラメータで文字コードを指定する</li>
+	<li>charsetパラメータの値</li>
+	<li>誤ったcharset指定</li></ul></li>
+<li>Column　character setという用語</li>
+<li>テキストをさらに符号化する<ul class="toc">
+	<li>Content-Transfer-Encodingフィールド</li>
+	<li>quoted-printable</li>
+	<li>base64<ul class="toc">
+		<li>base64による符号化のしくみ</li></ul></li></ul></li>
+<li>ヘッダの符号化　B符号化とQ符号化<ul class="toc">
+	<li>nkfによる復号</li></ul></li>
+<li>添付ファイル名の符号化<ul class="toc">
+	<li>添付ファイル名のトラブルの原因</li>
+	<li>添付ファイル名の文字化けへの対処法</li></ul></li>
+<li>日本語メールの符号化の現在</li>
+</ul>
+<h4>6.2　Webと文字コード</h4>
+<ul class="toc">
+<li>HTML<ul class="toc">
+	<li>HTMLで用いる文字</li>
+	<li>SGMLとしての背景</li>
+	<li>HTMLの文字参照</li>
+	<li>文字コードの指定方法　head要素の中のmeta要素</li>
+	<li>lang属性の影響<ul class="toc">
+		<li>統合漢字を描画し分ける</li>
+		<li>言語情報は書体選択の役に立つか</li></ul></li></ul></li>
+<li>CSS<ul class="toc">
+	<li>文字コードの指定方法</li>
+	<li>Unicode文字の参照</li></ul></li>
+<li>XML<ul class="toc">
+	<li>XMLで用いる文字</li>
+	<li>XMLの文字参照</li>
+	<li>文字コードの指定方法<ul class="toc">
+		<li>XML宣言</li>
+		<li>XHTMLの場合</li></ul></li></ul></li>
+<li>YAMLとJSON</li>
+<li>URL<ul class="toc">
+	<li>URL符号化<ul class="toc">
+		<li>HTML・XMLの中のURL</li></ul></li></ul></li>
+<li>HTTP<ul class="toc">
+	<li>HTML文書内部の文字コード指定が抱える問題点</li>
+	<li>HTTPヘッダによる文字コードの指定</li>
+	<li>Webサーバにおける設定</li>
+	<li>HTTPヘッダの確認方法</li></ul></li>
+<li>HTMLフォーム（CGI）<ul class="toc">
+	<li>フォームから入力されるテキストの文字コード</li>
+	<li>送信用の文字コードで符号化できない文字の扱い</li></ul></li>
+</ul>
+<h4>6.3　まとめ</h4>
+
+
+
+<h3>第7章　プログラミング言語と文字コード</h3>
+
+<h4>7.1　Java　……内部処理をUnicodeで行う</h4>
+<ul class="toc">
+<li>Javaにおける文字はすべてUnicode</li>
+<li>Javaの文字列と文字<ul class="toc">
+	<li>StringクラスとCharacterクラスとchar型</li>
+	<li>ソースコードの中の文字<ul class="toc">
+		<li>コンパイル時のコード変換</li></ul></li>
+	<li>Unicodeエスケープ</li>
+	<li>JavaはUnicodeを知っている<ul class="toc">
+		<li>文字の属性を調べる</li>
+		<li>大文字・小文字　Character.isLowerCase(char)メソッド他</li>
+		<li>数字・文字　Character.isDigit(char)メソッド</li>
+		<li>Unicodeブロック　Character.UnicodeBlockクラス</li></ul></li>
+	<li>サロゲートペアにまつわる問題　char単位で文字を扱うメソッド</li>
+	<li>サロゲートペアへの対応　charからintへ</li></ul></li>
+<li>入出力における文字コード変換<ul class="toc">
+	<li>Reader/Writerクラスによる変換</li>
+	<li>文字コードを指定した入出力　InputStreamReader/InputStreamWriterクラス</li>
+	<li>Javaで扱える文字コード</li>
+	<li>プラットフォームのデフォルトの文字コードを得る</li>
+	<li>デフォルトの文字コードを指定する</li></ul></li>
+<li>プロパティファイルの文字コード<ul class="toc">
+	<li>native2ascii</li>
+	<li>プロパティエディタ　プロパティファイル編集用のツール</li>
+	<li>XML形式のプロパティファイル</li>
+	<li>Propertiesクラス</li>
+	<li>リソースファイル　プロパティファイルを国際化のために用いる</li></ul></li>
+<li>JSPと文字コード<ul class="toc">
+	<li>pageディレクティブによる指定</li>
+	<li>Windowsの場合の問題　MS932変換表とSJIS変換表<ul class="toc">
+		<li>よく問題になる例　〜（波ダッシュ）</li></ul></li>
+	<li>3つの対処法　入力/出力におけるUnicode変換の食い違いを解消する<ul class="toc">
+		<li>❶入力時の変換をSJIS変換表に揃える</li>
+		<li>❷MS932変換表を使う</li>
+		<li>❸Javaプログラムで置換したうえでSJIS変換表で出力する</li></ul></li></ul></li>
+<li>文字コード変換器の自作方法</li>
+<li>ソートの問題　テキスト処理❶<ul class="toc">
+	<li>文字コードによるソート順</li>
+	<li>文字コード順以外によるソートの必要性　言語や国・地域を考慮する</li>
+	<li>Collatorクラスの使用</li>
+	<li>CollationKeyによる性能改善</li></ul></li>
+<li>自然な区切り位置の検出　テキスト処理❷<ul class="toc">
+	<li>何が問題か　Javaのcharと結合文字やサロゲートペア</li>
+	<li>BreakIteratorクラス　適切な区切り位置を検出する</li></ul></li>
+</ul>
+<h4>7.2　Ruby 1.8　……シンプルな日本語化</h4>
+<ul class="toc">
+<li>バージョン1.8までのRubyはASCIIが基本</li>
+<li>Ruby 1.8の文字列<ul class="toc">
+	<li>文字列の長さ</li>
+	<li>バイト列としての操作</li>
+	<li>文字列の操作</li>
+	<li>文字列の比較とソート</li>
+	<li>jcodeによる複数バイト文字対応</li></ul></li>
+<li>文字コードの指定<ul class="toc">
+	<li>指定方法　-Kオプション$KCODE</li></ul></li>
+<li>正規表現のマッチング　文字コードの指定を適切に行う<ul class="toc">
+	<li>$KCODEによる違い</li>
+	<li>正規表現ごとの文字コード指定</li>
+	<li>文字列を文字単位に切り分けるイディオム</li></ul></li>
+<li>文字コードの指定を間違うと何が起こるか</li>
+<li>JIS X 0213を使う</li>
+<li>コード変換ライブラリ<ul class="toc">
+	<li>NKF<ul class="toc">
+		<li>コード判別</li></ul></li>
+	<li>Kconvクラス</li>
+	<li>Iconvクラス</li></ul></li>
+</ul>
+<h4>7.3　Ruby 1.9以降　……CSI方式で多様な文字コードを処理</h4>
+<ul class="toc">
+<li>拡張されたRuby 1.9の文字関連処理</li>
+<li>スクリプトの文字コードの指定　マジックコメント</li>
+<li>Ruby 1.9の文字列<ul class="toc">
+	<li>自分の符号化方式を知っている</li>
+	<li>文字列の連結</li>
+	<li>Unicodeエスケープ</li>
+	<li>文字単位の操作</li>
+	<li>文字列の長さ</li>
+	<li>Unicodeの結合文字やサロゲートの扱い</li>
+	<li>結合文字を含めた「1文字」をとる</li></ul></li>
+<li>入出力の符号化方式　IOクラス<ul class="toc">
+	<li>入出力における文字コードの指定</li>
+	<li>Encodingクラス</li></ul></li>
+<li>Ruby 1.9のコード変換<ul class="toc">
+	<li>String#encodeメソッド</li>
+	<li>挙動の制御</li>
+	<li>変換できない文字の扱い　挙動の制御❶</li>
+	<li>XMLのメタ文字のエスケープ　挙動の制御❷</li>
+	<li>Encoding::Converterクラス</li></ul></li>
+</ul>
+<h4>7.4　まとめ</h4>
+
+
+
+<h3>第8章　はまりやすい落とし穴とその対処</h3>
+
+<h4>8.1　トラブル調査の必須工具　……16進ダンプツール</h4>
+<ul class="toc">
+<li>データのバイト値を検査する<ul class="toc">
+	<li>od　16進ダンプのツール</li>
+	<li>その他のツール　hdxxd</li></ul></li>
+</ul>
+<h4>8.2　文字化け</h4>
+<ul class="toc">
+<li>文字化けのよくあるパターン</li>
+<li>ラベルと本体の不一致による文字化け</li>
+<li>機種依存文字に起因する文字化け</li>
+<li>文字化け防止の原則</li>
+</ul>
+<h4>8.3　改行コード</h4>
+<ul class="toc">
+<li>改行コードに起因するトラブル<ul class="toc">
+	<li>1つのファイル中の混在</li>
+	<li>想定外の改行コードの使用</li></ul></li>
+<li>改行コードの変換<ul class="toc">
+	<li>nkfコマンドによる改行コードの変換</li>
+	<li>trコマンドによる対応</li></ul></li>
+</ul>
+<h4>8.4　「全角・半角」問題</h4>
+<ul class="toc">
+<li>「全角・半角」で何が問題になるのか</li>
+<li>問題の本質<ul class="toc">
+	<li>区別のはじまり　かつての機器のテキスト表示の制約条件</li>
+	<li>用語の本来の意味　印刷用語の全角・半角</li>
+	<li>文字コードは「全角・半角」を決めていない　1バイトの「A」2バイトの「A」</li>
+	<li>「（いわゆる）全角・半角」の存在は便利なのか</li></ul></li>
+<li>「全角・半角」問題への対応　利用者に「全角・半角」を意識させない<ul class="toc">
+	<li>求められる文字入力プログラム　文字コードにおける一意な符号化という原則</li>
+	<li>入力文字の検証　アプリケーション側の対処法❶</li>
+	<li>重複符号化された文字の同一視　アプリケーション側の対処法❷</li></ul></li>
+</ul>
+<h4>8.5　円記号問題</h4>
+<ul class="toc">
+<li>円記号問題とは何か<ul class="toc">
+	<li>ASCIIとJIS X 0201の違い</li>
+	<li>円記号問題の顕在化</li>
+	<li>Webブラウザ上の表示</li>
+	<li>Unicodeとの変換による問題　単なる表示上の問題では済まなくなる</li></ul></li>
+<li>対処のための注意点<ul class="toc">
+	<li>EUC-JPの場合</li>
+	<li>文字入力の際の注意</li>
+	<li>チルダとオーバーラインについての注意</li></ul></li>
+<li>円記号問題は解決できるか<ul class="toc">
+	<li>問題の本質　``0x5C``の意味の違いを厳密に運用する</li>
+	<li>解決のための思考実験</li></ul></li>
+</ul>
+<h4>8.6　波ダッシュ問題</h4>
+<ul class="toc">
+<li>波ダッシュ問題とは何か<ul class="toc">
+	<li>現象の例</li>
+	<li>波ダッシュとは</li>
+	<li>チルダとは</li></ul></li>
+<li>問題の原因　WAVE DASHとFULLWIDTH TILDE<ul class="toc">
+	<li>変換の妥当性を検証する　JISの1区33点とU+301Cの対応付け<ul class="toc">
+		<li>Unicodeの例示字形</li>
+		<li>FULLWIDTH TILDEの存在</li></ul></li>
+	<li>Windowsの実装</li></ul></li>
+<li>三つの対処案<ul class="toc">
+	<li>❶Unicodeに変換しない</li>
+	<li>❷コード変換を揃える</li>
+	<li>❸Unicode間で変換する</li></ul></li>
+<li>波ダッシュ以外の文字　変換による問題が発生しがちな文字</li>
+</ul>
+<h4>8.7　まとめ</h4>
+
+
+
+<h3>Appendix</h3>
+
+<h4>A.1　ISO/IEC 2022のもう少しだけ詳しい説明</h4>
+<ul class="toc">
+<li>符号化文字集合のバッファ</li>
+<li>指示と呼び出し</li>
+<li>94文字集合と96文字集合</li>
+<li>エスケープシーケンス</li>
+<li>符号化方式の実際<ul class="toc">
+	<li>EUC-JP</li>
+	<li>ISO-2022-JP</li></ul></li>
+</ul>
+<h4>A.2　JIS X 0213の符号化方式</h4>
+<ul class="toc">
+<li>既存の資産を活かしつつJIS X 0213の利点を亨受するために</li>
+<li>漢字用8ビット符号<ul class="toc">
+	<li>適した用途</li></ul></li>
+<li>EUC-JIS-2004<ul class="toc">
+	<li>「国際基準版・漢字用8ビット符号」との関係</li>
+	<li>適した用途</li></ul></li>
+<li>ISO-2022-JP-2004<ul class="toc">
+	<li>包摂規準の変更による旧規格使用の制限</li>
+	<li>適した用途</li></ul></li>
+<li>Shift_JIS-2004<ul class="toc">
+	<li>適した用途</li></ul></li>
+</ul>
+<h4>A.3　諸外国・地域の文字コード概説</h4>
+<ul class="toc">
+<li>中国　GB 2312とGB 18030<ul class="toc">
+	<li>GB 2312</li>
+	<li>GB 18030</li></ul></li>
+<li>韓国　KS X 1001</li>
+<li>北朝鮮　KPS 9566</li>
+<li>台湾　Big5とCNS 11643<ul class="toc">
+	<li>Big5</li>
+	<li>CNS 11643</li></ul></li>
+<li>香港　HKSCS</li>
+<li>ロシア　KOI8-R</li>
+</ul>
+<h4>A.4　Unicodeの諸問題</h4>
+<ul class="toc">
+<li>正規化　いつのまにか別の文字に変わる？<ul class="toc">
+	<li>問題</li>
+	<li>正規化</li>
+	<li>NFKCNFKD</li>
+	<li>正規化によって別の文字に移される文字</li>
+	<li>日本語環境への影響</li>
+	<li>互換漢字の扱い</li>
+	<li>Javaにおける正規化</li>
+	<li>ファイル交換の際のトラブル</li></ul></li>
+<li>器問題　統合漢字と互換漢字の複雑な関係<ul class="toc">
+	<li>拡張B　日本風台湾風の器器</li>
+	<li>Webブラウザの表示例</li></ul></li>
+<li>異体字セレクタ　「正しい字体」への欲求<ul class="toc">
+	<li>文字コードは文字の形を抽象化する</li>
+	<li>異体字を指定する</li>
+	<li>IVS</li>
+	<li>互換漢字の代替手段としての異体字セレクタ</li>
+	<li>プログラム上の対処</li></ul></li>
+<li>書字方向の制御によるファイル名の偽装<ul class="toc">
+	<li>右から左に書く文字</li>
+	<li>ファイル名の偽装<ul class="toc">
+		<li>偽装のしくみ</li>
+		<li>Windowsによる実験</li></ul></li>
+	<li>Windowsにおける対策</li></ul></li>
+</ul>
+<h4>A.5　Unicodeの文字データベース　……UnicodeData.txtとUnihan Database</h4>
+<ul class="toc">
+<li>UnicodeData.txt</li>
+<li>文字の種別の判別</li>
+<li>Unihan Database</li>
+</ul>
+<h4>A.6　規格の入手・閲覧方法ならびに参考文献</h4>
+<ul class="toc">
+<li>参考文献</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2019 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2018\/978-4-297-10292-0","path":"\/dp\/ebook\/2018\/978-4-297-10292-0","targetId":"978-4-297-10292-0","parent":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

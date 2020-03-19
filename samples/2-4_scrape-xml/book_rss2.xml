@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>gihyo.jp：新刊書籍情報</title>
+ <link>http://gihyo.jp/book</link>
+ <description>gihyo.jp（新刊書籍情報）の更新情報をお届けします</description>
+ <language>ja-jp</language>
+ <copyright>技術評論社 2014</copyright>
+ <lastBuildDate>Fri, 28 Nov 2014 08:52:02 +0900</lastBuildDate>
+ <image>
+  <url>http://gihyo.jp/assets/templates/gihyojp2007/image/header_logo_gihyo.gif</url>
+  <title>gihyo.jp</title>
+  <link>http://gihyo.jp/</link>
+ </image>
+ <item>
+  <title>1冊でマスター 大学の線形代数</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7037-4</link>
+  <description>『１冊でマスター　大学の微分積分』の線形代数バージョンです。高校で扱わなくなってしまった行列は特に丁寧に計算を省かずに解説します。必ず扱う「掃き出し法」は，連立1次方程式を解いたり，行列式，行列のランク等を求めたりするときに大活躍する計算方法ですが，意外と苦手な人が多いようです。本書は，その辺にも十分配慮していねいに解説します。
+また，別冊として，練習問題を付けますので実力試しにも役立つこと間違いなしです。
+本書1冊があれば，線形代数がマスターできます。</description>
+  <pubDate>Fri, 12 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7037-4</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>データサイエンティスト養成読本　R活用編　</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7057-2</link>
+  <description>注目の職種として脚光を浴びたデータサイエンティストですが，実際には多くの企業や組織で人材が不足しており，これにはいくつかの原因が考えられます。生まれて間もない職種のため，ビジネスデータ分析に関する知見が溜まっていないことや絶対的な人数が少なく育成される環境が整っていないことなどが挙げられます。本書は，データサイエンティストを目指す方に向けて，データ分析ソフトウェアとして一定の地位を得たＲの活用方法を解説していきます。集計処理，時系列分析，インフラの知識など現役のデータサイエンティストにも有用な情報が満載です！</description>
+  <pubDate>Fri, 12 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7057-2</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>ゼロからはじめる ドコモ GALAXY Note Edge SC-01G スマートガイド</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7019-0</link>
+  <description>ドコモのGALAXY Note Edge SC-01Gの初心者向け解説書です。電話としての基本的な使い方から，エッジディスプレイ，タッチペンなどの独自機能や便利な機能の活用法までをわかりやすく解説します。</description>
+  <pubDate>Wed, 10 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7019-0</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>実例満載　Wordでできる　はがき・名簿・案内状のつくり方</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-6945-3</link>
+  <description>実例満載シリーズのWord 2013対応版です。CD-ROMに収録されたサンプルファイルの一部を修正するだけで，手間をかけずに，必要な「写真入りのはがき」や「同窓会の名簿」「地図入りの案内状」などを短時間で作成することができます。
+後半ではWordの基本的な操作方法やサンプルの作り方を解説しており，初心者でもつまずくことなくオリジナルの書類を作成することができます。サンプルファイルはWord 2013/2010に対応しています。</description>
+  <pubDate>Wed, 10 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-6945-3</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>ゼロからはじめる iPad Air 2 スマートガイド ［iOS 8.1対応版］</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7036-7</link>
+  <description>本書は，2014年10月に発売されたiPad Air 2の初心者向け解説書です。基本操作，インターネット／メール／標準アプリなどの使い方のほか，カメラや音楽・動画・電子書籍の楽しみ方，アプリの購入，パソコンとの連携，クラウドサービス「iCloud」の活用方法なども解説しています。本書があれば，iPad Air 2の基本操作と活用法がバッチリわかります！</description>
+  <pubDate>Tue, 09 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7036-7</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>ゼロからはじめる iPad mini 3 スマートガイド［iOS 8.1対応版］</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7035-0</link>
+  <description>本書では，iPad mini 3の基本をやさしく解説したマニュアルです。
+iPad miniの基本操作はもちろんのこと，インターネットやメールの設定，標準アプリのようなよく使う機能を丁寧に解説。
+カメラや動画の楽しみ方，アプリケーションの購入，パソコンとの連携，クラウドサービス「iCloud」のような応用的な活用方法についても解説しています。
+iPad mini 3をこれから使う方には最適な1冊です。</description>
+  <pubDate>Tue, 09 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7035-0</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>平成27年度　ITパスポート合格教本 CBT対応</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-6917-0</link>
+  <description>「小難しい参考書は読むと眠くなる…」そんな方のために作ったテキストです。親しみやすいイラストと軽妙な語り口で，雑談の多い授業を受けているかのように楽しく学習できるよう工夫しました。セキュリティ重視の新形式にも対応し，随所に配置したチェック問題や確認問題で，記憶を強化しながら効率よく学習を進められます。付録CD-ROMには，予想問題や過去問題など合計1500問を収め，本番さながらの問題演習ができる弱点分析・自動採点機能付きのソフトが入っています。巻末には最新の公開問題と解説を掲載。この1冊で試験対策は万全です！</description>
+  <pubDate>Sat, 06 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-6917-0</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>平成27年度【春期】【秋期】　基本情報技術者　合格教本</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-6820-3</link>
+  <description>基本情報技術者試験の定番テキストとしてロングセラー書籍の平成27年度版です。最新のシラバスVer.3に対応。図解を豊富に使ったわかりやすい解説は，はじめて学習する方に最適です。項目ごとに短くまとめてあり，各項目には出題頻度が表示してあるので，短時間で効率的に学習できます。巻末には最新の平成26年度秋期の過去問題と解説を添付。さらに，付属CD-ROMには午前問題の弱点を分析・反復学習ができる学習用ソフトと過去20回分の問題＆解答のPDFを収録しています。定評のある本書で試験対策はバッチリです。</description>
+  <pubDate>Sat, 06 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-6820-3</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>ゼロからはじめる ドコモ Xperia Z3 SO-01G スマートガイド</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7017-6</link>
+  <description>本書は，NTTドコモから発売されたスマートフォン「Xperia Z3 SO-01G」の初心者向け解説書です。通話，メール，インターネットなどの基本的な使い方のほか，Xperia Z3 SO-01Gの独自機能，アプリケーションのインストールや使い方，NTTドコモのサービスの利用方法なども解説しています。本書があれば，Xperia Z3 SO-01Gの基本操作と活用法がバッチリわかります！</description>
+  <pubDate>Fri, 05 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7017-6</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>ゼロからはじめる au Xperia Z3 SOL26 スマートガイド</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7033-6</link>
+  <description>本書は，auから発売されたスマートフォン「Xperia Z3 SOL26」の初心者向け解説書です。通話，メール，インターネットなどの基本的な使い方のほか，Xperia Z3の独自機能，アプリのインストールや使い方，auサービスやソニーのサービスの利用方法なども解説しています。本書があれば，Xperia Z3 SOL26の基本操作と活用法がバッチリわかります！</description>
+  <pubDate>Fri, 05 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7033-6</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>インフラエンジニア教本　――ネットワーク構築技術解説</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7034-3</link>
+  <description>「SoftwareDesignの人気特集記事を再編集！」
+自社のネットワークやサーバを管理する技術力がなければ，クラウド環境を安心して使いこなせません。本書はネットワーク構築技術を，LANケーブルの作り方から「ガチ」で解説します。ネットワークの要であるDHCPサーバの構築，そしてルータやスイッチングハブの使い方と注意点，ワイヤレスLAN環境構築における落とし穴とその解決方法，ネットワークが成長するにあたり必須な負荷分散装置であるロードバランサ，工夫次第でスゴイ能力を発揮するプロキシサーバ，さらには高可用性の実現をするクラスタリング等々，必須技術をすべて網羅しました。もちろんこれらをコントロールするためのUnixコマンドの使い方も短期集中で学べるようにツボを押さえて紹介しています。運用上必須なバックアップ方法についてもハードディスクのしくみから解説しました。最後に，エンジニアの活躍の場であるデータセンターの作り方まで言及しました。全352ページ，これ1冊で本当に必要なIT技術の粋がわかります。最強かつ本物のインフラエンジニアになるための体系的な情報が載っているのは，本書だけです！</description>
+  <pubDate>Fri, 05 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7034-3</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>2015年版　Let's 合格！ FP技能士 3級　</title>
+  <link>http://gihyo.jp/book/2015/978-4-7741-7005-3</link>
+  <description>過去問題の分析結果から，出題の可能性が高いと判断した知識だけを詳しく解説。最低限覚えておきたい重要ポイントのまとめが，知識の整理や反復学習に役立ちます。また，ポイント解説の流れの中で実技試験の過去問題を解説しているので，学科と実技を切り離すことなく，1冊で両方を学習できます。章末には学科試験の〇×問題，付録には実技試験の計算問題対策の公式集があり，理解度の確認や試験直前の最終チェックにも活用できます。試験に必要な知識だけを無駄なく学習し，合格ラインを突破しましょう！</description>
+  <pubDate>Tue, 02 Dec 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2015/978-4-7741-7005-3</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>ゼロからはじめる ドコモ ARROWS NX F-02G スマートガイド</title>
+  <link>http://gihyo.jp/book/2014/978-4-7741-7016-9</link>
+  <description>本書は，NTTドコモから発売されたスマートフォン「ARROWS NX F-02G」の初心者向け解説書です。通話，メール，インターネットなどの基本的な使い方のほか，ARROWS NXの独自の機能，アプリケーションのインストールや使い方，NTTドコモのサービスの利用方法なども解説しています。本書があれば，ARROWS NXの基本操作と活用法がバッチリわかります！</description>
+  <pubDate>Sat, 29 Nov 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2014/978-4-7741-7016-9</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>ナースのための病態ポケットブック</title>
+  <link>http://gihyo.jp/book/2014/978-4-7741-6933-0</link>
+  <description>病気の知識は，患者さんをケアするナースにとって必須の知識。3-4年の看護学生や新米ナースの皆さんは，しっかり勉強して看護の現場に出てきます。
+とはいえ，病気の種類は多種多様。
+現場でその知識がいつもすっと出てくるわけではありません。
+「この病気って何だっけ？」「どんな症例だったかな？」
+そんな疑問が湧いたとき，必要な知識をさらっと確認したい。
+そんな時に便利なのが『ナースのための病態ポケットブック』。
+病気の概要はもとより，その周辺の解剖生理もコンパクトにまとまっているので，わかりやすい。
+携帯性と実用性を兼ね備えた『ナースのための病態ポケットブック』。
+新人ナース＆看護実習生に必携の1冊です。</description>
+  <pubDate>Sat, 29 Nov 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2014/978-4-7741-6933-0</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>Excel VBAをはじめるまえに絶対知っておきたい「マクロ」の本</title>
+  <link>http://gihyo.jp/book/2014/978-4-7741-7004-6</link>
+  <description>もっともやさしいExcel VBA の入門書。Excelの日常業務を自動化したいなら難しい知識を覚える必要はありません。『マクロ記録』が使えれさえすれば十分なんです！本書はその『マクロ記録』に絞り，徹底的にわかりやすく解説しています。著者は，VBAの大ベストセラー「かんたんプログラミングExcelVBA」の著者である大村あつし氏。大村氏の独特な解説手法と丁寧な図解で，とりあえずマクロ・VBAを始めてみたい人，VBAで挫折して再挑戦したい人の第一歩として最適の一冊です。</description>
+  <pubDate>Wed, 26 Nov 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2014/978-4-7741-7004-6</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>今すぐ使えるかんたん　ネットショップ　開店＆運営スタートブック</title>
+  <link>http://gihyo.jp/book/2014/978-4-7741-6804-3</link>
+  <description>ネットで商品を販売したい！　でも，何をすればいいの？　という皆さんのために，ネットショップの立ち上げ，販売，発送，入金確認まで，すべての業務を解説しました。商品写真のキレイな撮り方や，発送方法の選択，梱包のコツ，アクセス数の分析まで，ネットショップ運営のノウハウもしっかり紹介。ネットショップを始めたい方，まずはこの本を読んでみてください！</description>
+  <pubDate>Wed, 26 Nov 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2014/978-4-7741-6804-3</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>今すぐ使えるかんたん ぜったいデキます！ ワード＆エクセル 2013</title>
+  <link>http://gihyo.jp/book/2014/978-4-7741-6802-9</link>
+  <description>パソコン初心者にやさしい「ぜったいデキます！」シリーズに，「ワード＆エクセル」が登場です。ワードで文書を作りたい，エクセルで表計算を行いたい。でもパソコン操作には自信がない。そんな皆さんのために，操作を省略せず，大きな文字で，ワードとエクセルの操作方法をやさしく解説します。対応バージョンは，ワード2013とエクセル2013です。</description>
+  <pubDate>Wed, 26 Nov 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2014/978-4-7741-6802-9</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>今すぐ使えるかんたん ぜったいデキます！ Outlook 2013</title>
+  <link>http://gihyo.jp/book/2014/978-4-7741-6803-6</link>
+  <description>Microsoft Officeに含まれる電子メールソフト，Outlook 2013の一番やさしい解説書です。Outlook 2013はWindows 8や8.1の標準電子メールなので，利用者もたくさんいらっしゃいます。しかしながら，解説レベルとして「超入門」クラスの，Outlookの操作解説書はありませんでした。本書は最もやさしいパソコン書として定評のある「ぜったいデキます！」シリーズの解説方式にのっとった，Outlookの超入門解説書です。本書を読めば，Outlook 2013を使った電子メールのやり取りはバッチリです。</description>
+  <pubDate>Wed, 26 Nov 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2014/978-4-7741-6803-6</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>てっとり早く確実にマスターできる Excel VBAの教科書</title>
+  <link>http://gihyo.jp/book/2014/978-4-7741-7003-9</link>
+  <description>多くの機能を持つExcel VBAの中でも，マスターするうえで，最低限覚えておかなければならない「繰り返し」や「条件分岐」，「対話型マクロ」など重要かつ基本的なトピックのみを厳選。著者は，VBA の大ベストセラー「かんたんプログラミングExcelVBA」の著者である大村あつし氏。独特な解説手法と丁寧な図解で，わかりやすくまとまっています。VBAをどう勉強すればいいかを知りたい，何度もやってみたけれどなかなか身につかない，VBAとはどんなものかを知りたいという方におすすめです。</description>
+  <pubDate>Wed, 26 Nov 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2014/978-4-7741-7003-9</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>今すぐ使えるかんたんmini Excel文書作成 基本＆便利技［Excel 2013/2010対応版］</title>
+  <link>http://gihyo.jp/book/2014/978-4-7741-6805-0</link>
+  <description>本書ではExcelで1枚書類や表やグラフを使った文書を便利に見栄え良く作成する方法を解説します。ダウンロードサンプルを利用して自動計算ができる帳票やグラフや表を組み合わせた報告書などがかんたんにつくれるようになります。Excel 2013/2010対応。</description>
+  <pubDate>Wed, 26 Nov 2014 00:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/list">新刊書籍情報</category>
+  <guid>http://gihyo.jp/book/2014/978-4-7741-6805-0</guid> 
+  <author>技術評論社</author>
+ </item>
+</channel>
+</rss>

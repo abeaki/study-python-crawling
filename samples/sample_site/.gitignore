@@ -1,0 +1,7 @@
+gihyo.jp
+#sample.scraping-book.com
+sample.scraping-book.com/.ht*
+deployment.ini
+deployment.log
+deployment.phar
+secrets/

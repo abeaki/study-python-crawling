@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>gihyo.jp：総合</title>
+ <link>http://gihyo.jp/</link>
+ <description>gihyo.jp（総合）の更新情報をお届けします</description>
+ <language>ja-jp</language>
+ <copyright>技術評論社 2016</copyright>
+ <lastBuildDate>Wed, 13 Jul 2016 11:22:00 +0900</lastBuildDate>
+ <image>
+  <url>http://gihyo.jp/assets/templates/gihyojp2007/image/header_logo_gihyo.gif</url>
+  <title>gihyo.jp</title>
+  <link>http://gihyo.jp/</link>
+ </image>
+ <item>
+  <title>超高速Flash Storage Systemへの挑戦～DSSD D5の設計について，Andy Bechtolsheimへのインタビュー～［後編］ ── インタビュー</title>
+  <link>http://gihyo.jp/news/interview/2016/07/1301</link>
+  <description>筆者は2016年の3月にDSSD社を訪問して，その開発に深く関わってきたAndy Bechtolsheim氏にインタビューする機会を得て，DSSDの技術やその起業にまつわるストーリーなどを聞くことができました。前後編に分けてその模様をお届けします。</description>
+  <pubDate>Wed, 13 Jul 2016 10:24:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/news/interview">インタビュー</category>
+  <guid>http://gihyo.jp/news/interview/2016/07/1301</guid> 
+  <author>安田豊</author>
+ </item>
+ <item>
+  <title>第429回　ウイルススキャンの結果を通知する ── Ubuntu Weekly Recipe</title>
+  <link>http://gihyo.jp/admin/serial/01/ubuntu-recipe/0429</link>
+  <description>今回は，Ubuntuでウイルススキャンを実行する意義を確認したうえで，Ubuntuらしく結果を通知する方法を考えてみます。</description>
+  <pubDate>Wed, 13 Jul 2016 10:22:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/admin/serial/01/ubuntu-recipe">Ubuntu Weekly Recipe</category>
+  <guid>http://gihyo.jp/admin/serial/01/ubuntu-recipe/0429</guid> 
+  <author>あわしろいくや</author>
+ </item>
+ <item>
+  <title>第3回　Webセキュリティのおさらい その3 CSRF・オープンリダイレクト・クリックジャッキング ── JavaScriptセキュリティの基礎知識</title>
+  <link>http://gihyo.jp/dev/serial/01/javascript-security/0003</link>
+  <description>前回は，Webアプリケーションにおける受動的攻撃の代表例の1つであるXSSについて，原理や対策を振り返りました。今回は，同じく受動的攻撃の代表例であるCSRF，オープンリダイレクト，クリックジャッキングについて掘り下げて解説していきます。</description>
+  <pubDate>Wed, 13 Jul 2016 10:20:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/dev/serial/01/javascript-security">JavaScriptセキュリティの基礎知識</category>
+  <guid>http://gihyo.jp/dev/serial/01/javascript-security/0003</guid> 
+  <author>はせがわようすけ</author>
+ </item>
+ <item>
+  <title>物理シミュレーション／モデリングソフトウェアCOMSOL Multiphysicsの最新バージョン5.2a発売 ── ニュースリリース</title>
+  <link>http://gihyo.jp/news/nr/2016/07/1201</link>
+  <description>2016年6月17日，米COMSOL,Inc.は同社のマルチフィジックスシミュレーションソフトウェアCOMSOL Multiphysicsの最新バージョン5.2aを発表，同日から販売を開始した。</description>
+  <pubDate>Tue, 12 Jul 2016 13:50:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/news/nr">ニュースリリース</category>
+  <guid>http://gihyo.jp/news/nr/2016/07/1201</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>超高速Flash Storage Systemへの挑戦～DSSD D5の設計について，Andy Bechtolsheimへのインタビュー～［前編］ ── インタビュー</title>
+  <link>http://gihyo.jp/news/interview/2016/07/1201</link>
+  <description>筆者は2016年の3月にDSSD社を訪問して，その開発に深く関わってきたAndy Bechtolsheim氏にインタビューする機会を得て，DSSDの技術やその起業にまつわるストーリーなどを聞くことができました。前後編に分けてその模様をお届けします。</description>
+  <pubDate>Tue, 12 Jul 2016 10:21:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/news/interview">インタビュー</category>
+  <guid>http://gihyo.jp/news/interview/2016/07/1201</guid> 
+  <author>安田豊</author>
+ </item>
+ <item>
+  <title>だいすきなものづくりを仕事にしてみませんか？ ── 新刊ピックアップ</title>
+  <link>http://gihyo.jp/book/pickup/2016/0048</link>
+  <description>ハンドメイドといえば，以前までは＝手芸であり，趣味のひとつとしてはじめる方が多かった印象がありますが，近年，ハンドメイド作家として作品を商品として販売したい＝仕事にしたい，という方が増えてきました。</description>
+  <pubDate>Tue, 12 Jul 2016 10:20:30 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>http://gihyo.jp/book/pickup/2016/0048</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>できる知的ワーカーはなぜ体を鍛えるのか？ 頭をフル回転させる人が，体力トレーニングにはまるワケ ── 新刊ピックアップ</title>
+  <link>http://gihyo.jp/book/pickup/2016/0047</link>
+  <description>単純な仕事はITに置き換わり，知的労働者はよりクリエイティブで高度な仕事に頭を使うことが求められている。</description>
+  <pubDate>Tue, 12 Jul 2016 10:20:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>http://gihyo.jp/book/pickup/2016/0047</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>Firefox OSの「これまで」と「これから」 ── 新刊ピックアップ</title>
+  <link>http://gihyo.jp/book/pickup/2016/0046</link>
+  <description>2016年2月4日，Mozilla Foundationは「Firefox OS」のモバイル機器向けの提供とアプリストア「Mozilla Marketplace」の新規登録を終了し，今後はIoT分野に注力すると発表しました。</description>
+  <pubDate>Mon, 11 Jul 2016 10:20:30 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>http://gihyo.jp/book/pickup/2016/0046</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>Webアプリ開発の基礎知識，作りながら学ぶ意味とは？ ── 新刊ピックアップ</title>
+  <link>http://gihyo.jp/book/pickup/2016/0045</link>
+  <description>Amazon，楽天，Gmail，Twitterなど，インターネットに接続して利用するこれらのサービスやツールは，Webアプリケーション（以下，Webアプリ）と呼ばれます。</description>
+  <pubDate>Mon, 11 Jul 2016 10:20:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>http://gihyo.jp/book/pickup/2016/0045</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>2016年7月11日　32ビットよ，さようなら ―i386アーキテクチャを捨てる時期に入ったLinux ── Linux Daily Topics</title>
+  <link>http://gihyo.jp/admin/clip/01/linux_dt/201607/11</link>
+  <description>32ビットサポートはもう時間のムダだ―ここ1，2年，メジャーなLinuxディストリビューションの開発者たちからこういう声を聞く機会は日ごとに増えてきた。</description>
+  <pubDate>Mon, 11 Jul 2016 10:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>http://gihyo.jp/admin/clip/01/linux_dt/201607/11</guid> 
+  <author>階戸明</author>
+ </item>
+ <item>
+  <title>クラウド化で成功するためのポイントは何か？―OpenStack Days Tokyo 2016 基調講演レポート ── レポート</title>
+  <link>http://gihyo.jp/news/report/2016/07/0801</link>
+  <description>7月6，7日の2日間，東京，虎ノ門ヒルズフォーラムにてOpenStackユーザコミュニティによる年次イベント「OpenStack Days Tokyo 2016」が開催されました。</description>
+  <pubDate>Fri, 08 Jul 2016 17:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/news/report">レポート</category>
+  <guid>http://gihyo.jp/news/report/2016/07/0801</guid> 
+  <author>小坂浩史</author>
+ </item>
+ <item>
+  <title>2016年7月8日号　Ubuntu 15.10と，14.04 LTSのHWE（16.04を除く）のEOL・UWN#472 ── Ubuntu Weekly Topics</title>
+  <link>http://gihyo.jp/admin/clip/01/ubuntu-topics/201607/08</link>
+  <description>16.04のリリースから3ヶ月，旧バージョンのサポート終了の時期がやってきました。Ubuntu 15.10は，7月28日にEOLを迎えます。</description>
+  <pubDate>Fri, 08 Jul 2016 11:15:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/admin/clip/01/ubuntu-topics">Ubuntu Weekly Topics</category>
+  <guid>http://gihyo.jp/admin/clip/01/ubuntu-topics/201607/08</guid> 
+  <author>吉田史</author>
+ </item>
+ <item>
+  <title>リンク，「ベアメタル型アプリプラットフォーム」でエンタープライズモデルの提供を開始 ── ニュースリリース</title>
+  <link>http://gihyo.jp/news/nr/2016/07/0801</link>
+  <description>（株）リンクは2016年7月6日より，「ベアメタル型アプリプラットフォーム」において，ネットワークを冗長化した「エンタープライズモデル」の提供を開始した。</description>
+  <pubDate>Fri, 08 Jul 2016 10:30:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/news/nr">ニュースリリース</category>
+  <guid>http://gihyo.jp/news/nr/2016/07/0801</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>第59回　今年のケンブリッジBSDCamはお得かも ── BSD界隈四方山話</title>
+  <link>http://gihyo.jp/admin/serial/01/bsd-yomoyama/0059</link>
+  <description>2016年8月に，英国ケンブリッジにてBSDCamが開催されます。</description>
+  <pubDate>Fri, 08 Jul 2016 10:22:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/admin/serial/01/bsd-yomoyama">BSD界隈四方山話</category>
+  <guid>http://gihyo.jp/admin/serial/01/bsd-yomoyama/0059</guid> 
+  <author>後藤大地</author>
+ </item>
+ <item>
+  <title>「クラウド利用のポイントを押さえよう！」 ── 新刊ピックアップ</title>
+  <link>http://gihyo.jp/book/pickup/2016/0044</link>
+  <description>一昔前までWebシステムのインフラといえば，ハードウェアの選定・調達，そしてOSやミドルウェアの構築までを自前で行うのは当たり前のことでした。</description>
+  <pubDate>Fri, 08 Jul 2016 10:00:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>http://gihyo.jp/book/pickup/2016/0044</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>リンク，「サーバ乗り換えキャンペーン」を開始 ── ニュースリリース</title>
+  <link>http://gihyo.jp/news/nr/2016/07/0701</link>
+  <description>（株）リンクは，2016年6月30日より「サーバ乗り換えキャンペーン」を開始した。</description>
+  <pubDate>Thu, 07 Jul 2016 18:26:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/news/nr">ニュースリリース</category>
+  <guid>http://gihyo.jp/news/nr/2016/07/0701</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>WordCamp Kansai 2016，7月9，10日の2日間開催～“for the future” 未来のために ── インフォメーション</title>
+  <link>http://gihyo.jp/news/info/2016/07/0701</link>
+  <description>関西地域で3回目となる，WordCamp Kansai 2016が7月9，10日の2日間開催される。</description>
+  <pubDate>Thu, 07 Jul 2016 17:37:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/news/info">インフォメーション</category>
+  <guid>http://gihyo.jp/news/info/2016/07/0701</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>第22回［最終回］　まとめと本連載で解説できなかったこと ── Hadoopはどのように動くのか ─並列・分散システム技術から読み解くHadoop処理系の設計と実装</title>
+  <link>http://gihyo.jp/admin/serial/01/how_hadoop_works/0022</link>
+  <description>本連載では，これまで21回に渡り，HadoopやSparkなどのソフトウェアを並列データ処理系のアーキテクチャやデータ処理方法の原理や技術的特徴を概観してきました。</description>
+  <pubDate>Thu, 07 Jul 2016 10:28:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/admin/serial/01/how_hadoop_works">Hadoopはどのように動くのか ─並列・分散システム技術から読み解くHadoop処理系の設計と実装</category>
+  <guid>http://gihyo.jp/admin/serial/01/how_hadoop_works/0022</guid> 
+  <author>山田浩之</author>
+ </item>
+ <item>
+  <title>第142回　g.o.a.t，初音ミク × Xperia，Canon: Instazoom ── いま，見ておきたいウェブサイト</title>
+  <link>http://gihyo.jp/design/serial/01/website-pickup/0142</link>
+  <description>ジメジメとした空気のせいで，乾燥せずに肌にまとわりつく汗を感じながらも，クーラーの効いた部屋で冷たい飲み物を楽しみながらホッと一息ついている今日このごろ，皆様いかがお過ごしでしょうか。今回も個人的に感じた，素晴らしいサイトの特徴をいくつかお話したいと思います。</description>
+  <pubDate>Thu, 07 Jul 2016 10:25:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/design/serial/01/website-pickup">いま，見ておきたいウェブサイト</category>
+  <guid>http://gihyo.jp/design/serial/01/website-pickup/0142</guid> 
+  <author>Lançamento</author>
+ </item>
+ <item>
+  <title>2016年7月第1週号 1位は，ChromeのデベロッパーツールでCSSアニメーションを検証する方法，気になるネタは，Kindleが紙に近づく新機能Page Flip導入。指挟んでパラパラを再現 ── 週刊Webテク通信</title>
+  <link>http://gihyo.jp/design/clip/01/weekly-web-tech/201607/07</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2016年6月27日～7月3日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 07 Jul 2016 10:22:00 +0900</pubDate>
+  <category domain="http://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>http://gihyo.jp/design/clip/01/weekly-web-tech/201607/07</guid> 
+  <author>芦之由</author>
+ </item>
+</channel>
+</rss>

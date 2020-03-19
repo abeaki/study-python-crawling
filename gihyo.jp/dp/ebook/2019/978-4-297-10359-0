@@ -1,0 +1,510 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>管理ゼロで成果はあがる ～「見直す・なくす・やめる」で組織を変えよう | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="「上司なし・決裁なし」「経費は承認なく使える」「休暇は取り放題」「給与は一律，賞与は山分け，評価制度なし」「売上目標やノルマはなし」「働く時間も場所も縛りなし」「副業OK」最高に自由に働いて成果を出し続ける会社の実体験に基づくメソッドや考え方を「生産的に働く」「自律的に働く」「独創的に働く」の3つのステップに体系化。「組織として成果を出すこと」「個人が楽しく働くこと」をだれでも両立させる方法がわかる！自己組織化された組織に変える３つのステップとは①生産的で楽に成果を出せるように仕事の進め方を「見直す」→ やり方・生産性・タスク・やる気・信頼関係・会議・雑談・社内業務・価値②自律的に自ら働くようにマネジメントから管理を「なくす」→ 管理・組織の階層・評価・数字・組織の壁・人の急募・教育・制度・通勤③独創的な強みを手に入れるために慣習に従うのを「やめる」→ 既存のビジネスモデル・説得する営業・新規事業・規模の追求・会社らしさ成果のあがる組織に変えるメソッド・考え方の実例が満載ホウレンソウより心理的安全をもたらす「ザッソウ」目標管理面談に代わる「すりあわせ」と「YWT」1年以上をかけて信頼関係を築いてから採用部署なし，全員が兼務で助け合う「部活」から新規事業を生み出す会社の枠を超えてチームになる「論理社員」できる範囲でがんばる「ベストエフォート経営」"/>
+  <meta name="keywords" content="倉貫義人電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store1122.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="管理ゼロで成果はあがる ～「見直す・なくす・やめる」で組織を変えよう | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="「上司なし・決裁なし」「経費は承認なく使える」「休暇は取り放題」「給与は一律，賞与は山分け，評価制度なし」「売上目標やノルマはなし」「働く時間も場所も縛りなし」「副業OK」最高に自由に働いて成果を出し続ける会社の実体験に基づくメソッドや考え方を「生産的に働く」「自律的に働く」「独創的に働く」の3つのステップに体系化。「組織として成果を出すこと」「個人が楽しく働くこと」をだれでも両立させる方法がわかる！自己組織化された組織に変える３つのステップとは①生産的で楽に成果を出せるように仕事の進め方を「見直す」→ やり方・生産性・タスク・やる気・信頼関係・会議・雑談・社内業務・価値②自律的に自ら働くようにマネジメントから管理を「なくす」→ 管理・組織の階層・評価・数字・組織の壁・人の急募・教育・制度・通勤③独創的な強みを手に入れるために慣習に従うのを「やめる」→ 既存のビジネスモデル・説得する営業・新規事業・規模の追求・会社らしさ成果のあがる組織に変えるメソッド・考え方の実例が満載ホウレンソウより心理的安全をもたらす「ザッソウ」目標管理面談に代わる「すりあわせ」と「YWT」1年以上をかけて信頼関係を築いてから採用部署なし，全員が兼務で助け合う「部活」から新規事業を生み出す会社の枠を超えてチームになる「論理社員」できる範囲でがんばる「ベストエフォート経営」"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2019/978-4-297-10359-0"/>
+  <meta property="og:image" content="//image.gihyo.co.jp/assets/images/gdp/2019/978-4-297-10359-0.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%BB%E3%83%9E%E3%83%8D%E3%83%BC" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">管理ゼロで成果はあがる<br/><span class="sub">～<wbr/>「見直す・<wbr/>なくす・<wbr/>やめる」<wbr/>で組織を変えよう</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="//image.gihyo.co.jp/assets/images/gdp/2019/978-4-297-10359-0.jpg" alt="管理ゼロで成果はあがる ～「見直す・なくす・やめる」で組織を変えよう"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">倉貫義人　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2019-01-10">2019年1月10日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2019-01-10">2019年1月10日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2019/978-4-297-10358-3" target="_blank">2019年1月24日に発売される書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,580円 <a id="pid402390" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">272</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2019/978-4-297-10359-0" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2019/978-4-297-10359-0" data-text="管理ゼロで成果はあがる ～「見直す・なくす・やめる」で組織を変えよう #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2019/978-4-297-10359-0" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2019/978-4-297-10359-0"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2019/978-4-297-10359-0" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>「上司なし・<wbr/>決裁なし」<br />
+「経費は承認なく使える」<br />
+「休暇は取り放題」<br />
+「給与は一律，<wbr/>賞与は山分け，<wbr/>評価制度なし」<br />
+「売上目標やノルマはなし」<br />
+「働く時間も場所も縛りなし」<br />
+「副業OK」</p>
+
+<p>最高に自由に働いて成果を出し続ける会社の実体験に基づくメソッドや考え方を「生産的に働く」「自律的に働く」「独創的に働く」の3つのステップに体系化。</p>
+
+<p>「組織として成果を出すこと」<br />
+「個人が楽しく働くこと」</p>
+
+<p>をだれでも両立させる方法がわかる！</p>
+
+<h4>自己組織化された組織に変える３つのステップとは</h4>
+<ul class="toc">
+<li>①生産的で楽に成果を出せるように仕事の進め方を「見直す」<br />
+→ やり方・<wbr/>生産性・<wbr/>タスク・<wbr/>やる気・<wbr/>信頼関係・<wbr/>会議・<wbr/>雑談・<wbr/>社内業務・<wbr/>価値</li>
+
+<li>②自律的に自ら働くようにマネジメントから管理を「なくす」<br />
+→ 管理・<wbr/>組織の階層・<wbr/>評価・<wbr/>数字・<wbr/>組織の壁・<wbr/>人の急募・<wbr/>教育・<wbr/>制度・<wbr/>通勤</li>
+
+<li>③独創的な強みを手に入れるために慣習に従うのを「やめる」<br />
+→ 既存のビジネスモデル・<wbr/>説得する営業・<wbr/>新規事業・<wbr/>規模の追求・<wbr/>会社らしさ</li>
+</ul>
+
+<h4>成果のあがる組織に変えるメソッド・<wbr/>考え方の実例が満載</h4>
+<ul>
+<li>ホウレンソウより心理的安全をもたらす「ザッソウ」</li>
+<li>目標管理面談に代わる「すりあわせ」と「YWT」</li>
+<li>1年以上をかけて信頼関係を築いてから採用</li>
+<li>部署なし，<wbr/>全員が兼務で助け合う</li>
+<li>「部活」から新規事業を生み出す</li>
+<li>会社の枠を超えてチームになる「論理社員」</li>
+<li>できる範囲でがんばる「ベストエフォート経営」</li>
+</ul><h3>こんな方におすすめ</h3>
+<ul><li>チームリーダー</li><li>マネージャー</li><li>経営者</li></ul>
+<h3>著者から一言</h3>
+<p>「しっかりと管理するほど生産性が下がってきたように感じる」<br />
+「管理したいわけじゃないけど，<wbr/>生産性の上げ方がわからない」</p>
+
+<p>こんな悩みを抱えたことはありませんか？<br />
+私たちソニックガーデンは，<wbr/>2011年に創業したシステム開発をおこなっている企業です。社員数は35名（2018年8月）で，<wbr/>そのほとんどがプログラミングで仕事をするエンジニア集団です。これだけ書くと，<wbr/>どこにでもあるような企業と違いはありませんが，<wbr/>ほかの会社にはない特徴がいくつもあります。<br />
+まず，<wbr/>私たちの会社には，<wbr/>本社オフィスがありません。社員の半数以上が地方に住んでおり，<wbr/>在宅勤務で仕事をしています。社員がいる場所は，<wbr/>15都道府県にもまたがります。スノーボードが好きで夫婦で長野に移住した社員もいれば，<wbr/>海外を旅しながら仕事をしている社員もいます。<br />
+そんなふうに全員が離れた場所にいますが，<wbr/>気軽に相談しあって助け合ったり，<wbr/>ときには雑談をしたりしながら，<wbr/>チームワークを大事にして働いています。ともすれば個人事業主の集まりのようなイメージをされるかもしれませんが，<wbr/>全員がフルタイムの社員であり，<wbr/>新卒も採用しているし，<wbr/>教育に投資もする，<wbr/>れっきとした会社です。</p>
+
+<p>「でも，<wbr/>オフィスに出社しなくて，<wbr/>いったいどうやって管理しているのか？」</p>
+
+<p>そう思うかもしれませんね。じつは，<wbr/>私たちの会社には管理職が1人もいません。そもそも部署もないし，<wbr/>指示命令する上司もいません。社員全員が自律的に考え，<wbr/>自主的に働く組織なのです。<br />
+上司がいないので，<wbr/>決裁はありません。だれでも経費は事前の承認なく使えて，<wbr/>休暇だって取り放題。評価制度さえなくて，<wbr/>基本的に給与は一律で，<wbr/>賞与は山分け。だから，<wbr/>売上目標やノルマといったものもありません。もちろん，<wbr/>残業や休日出勤などはほとんどありません。<br />
+それでも，<wbr/>創業以来ずっと増収し続けて成長してきました。5人で始めた会社が，<wbr/>7年で35人になって，<wbr/>多くのお客様に喜んでもらって支えてもらっています。<br />
+　その働き方と成果が評価されて，<wbr/>2018年には日本における「働きがいのある会社ランキング」（意識調査機関Great Place to Workが実施）の小規模部門で5位のベストカンパニーで入賞，<wbr/>「第3回ホワイト企業アワード」（日本次世代企業普及機構が選出）でもイクボス部門に入賞しました。</p>
+
+<h4>創造的な仕事は管理しないほうが生産的になる</h4>
+<p>私は以前，<wbr/>3000人ほどの社員のいるシステム開発の会社で，<wbr/>管理職として働いていたことがあります。その規模の会社になると多くのルールがあり，<wbr/>そのルールを守らせることも管理職の仕事の1つでした。<br />
+本来システム開発は，<wbr/>お客様にとって新しい価値を生み出す提案や，<wbr/>高度な技術を駆使したプログラミングなど，<wbr/>とても創造的な仕事です。この仕事の特徴は，<wbr/>粛々とマニュアルに従って手を動かすというよりも，<wbr/>机に座っているときだけでなく，<wbr/>仕事以外の時間ふとしたときに閃いたり，<wbr/>同僚との雑談している中でアイデアが出たりすることです。<br />
+それなのに，<wbr/>「使ってもいいコンピュータはこれで，<wbr/>閲覧してもいいウェブサイトはこれだけ」「組織のだれかが決めたプロセスに従わなければいけない」「勤務時間や勤務場所は固定して，<wbr/>人事評価は組織で一律の基準に則ること」など，<wbr/>多くのルールを守らせなければなりません。人数が多いから仕方がないとはいえ，<wbr/>性悪説を前提としたルールで管理をすればするほど，<wbr/>独創性は失われ，<wbr/>社員たちのやる気は下がり，<wbr/>生産性は落ちていきます。ルールで縛れば縛るほど，<wbr/>自分たちで考えることを放棄するようになっていくのです。それは非常に残念なことでした。<br />
+そこで，<wbr/>今の会社の前身である社内ベンチャーを始めたとき，<wbr/>私は「なるべく管理をなくせないか？」と考えました。そして，<wbr/>実際に管理を減らしていけばいくほど，<wbr/>チーム全体の生産性は高まっていったのです。<br />
+信頼関係さえしっかりと築くことができれば，<wbr/>管理などしなくてもだれもが管理していたとき以上に責任感を持ってきちんと仕事に取り組むし，<wbr/>個々の主体性も増しました。指示されて働くよりも，<wbr/>自分ごとにして圧倒的に楽しく働いてくれるようになりました。そして，<wbr/>社員が自律的に楽しく働くだけで，<wbr/>お客様からの評判は高くなり，<wbr/>新規事業が勝手に生み出され，<wbr/>創業した私が想像した以上の成果を出すことになったのです。<br />
+また，<wbr/>上司が指示命令をしないことで，<wbr/>現場で判断してお客様のためになること，<wbr/>会社にとっていいことを自分で判断するようになり，<wbr/>スピード感は増して，<wbr/>高い生産性を出すことができるようにもなりました。そもそも判断の難しい現代の仕事において，<wbr/>コマンドコントロール型のマネジメントでは上司やマネージャーがボトルネックになっていたのです。<br />
+これは，<wbr/>なにもITの仕事に限った話ではありません。どんな仕事にも，<wbr/>創造性を発揮する余地はあります。仕事の進め方を工夫したり，<wbr/>お客様の満足度を高めたりすることは，<wbr/>働く人のモチベーションに大きく左右されます。そうしたとき，<wbr/>管理で縛るより自由に働くほうが高い生産性を発揮するのです。</p>
+
+<h4>自由に働く組織に変えるための3つのステップ</h4>
+<p>このようにお話すると「管理もやめて自由にして，<wbr/>個人ごとに好きに働けばいいのだ」と思うかもしれませんが，<wbr/>いきなりそのようなことをしても，<wbr/>きっとうまくいきません。私たちも，<wbr/>長い期間かけてここまでに至ったのですが，<wbr/>取り組んできたことを振り返ってみると，<wbr/>大きく3つの段階があったように思います。</p>
+
+<ul>
+<li>第1段階：生産的に働く（楽に成果をあげるために見直す）</li>
+<li>第2段階：自律的に働く（人を支配しているものをなくす）</li>
+<li>第3段階：独創的に働く（常識や慣習に従うことをやめる）</li>
+</ul>
+
+<h5>第1段階：生産的に働く（楽に成果をあげるために見直す）</h5>
+<p>なにより最初に取り組んだのは，<wbr/>生産的に働くことです。仕事は，<wbr/>本人たちが楽しければいいというわけではなく，<wbr/>働いて価値を生み出すことが大前提にあります。まずは無駄な作業を見直し，<wbr/>要らない会議を減らし，<wbr/>仕事の進め方も継続的に改善し，<wbr/>生産性を高めて成果を出せるようになってはじめて次の段階に進めます。</p>
+
+<h5>第2段階：自律的に働く（人を支配しているものをなくす）</h5>
+<p>次に，<wbr/>だれかに管理されなくても働くことを目指します。自分で仕事を考えて，<wbr/>まわりと協調しながら成果を出していくようになると，<wbr/>細々とした管理は不要になり，<wbr/>組織としての負担も軽減されます。本人も自分の意思で働くことで自由と責任を得て，<wbr/>より高い生産性と品質を実現できます。そうして自律的に働けるようになれば，<wbr/>働く場所や時間は自分で選択できるのはもちろんのこと，<wbr/>苦手なことや評価など心理的な負担からも自由になっていくことができます。組織にいながら，<wbr/>自由を手に入れることができるのです。</p>
+
+<h5>第3段階：独創的に働く（常識や慣習に従うことをやめる）</h5>
+<p>最後の段階は，<wbr/>自分たちだけの働き方を追求する段階です。ここまでくれば，<wbr/>業界の慣習や常識にとらわれることなく，<wbr/>独創的なビジネスモデルやマーケティングの手法を見つけ出すことのできる実力のついたチームになっています。他社にはない独創的な働き方を実現することが，<wbr/>自分たちにとっての強みにもなっていくことでしょう。</p>
+
+<p>最終的には，<wbr/>仕事をしているのか遊んでいるのか，<wbr/>はたから見てもわからない状態になります。もちろん，<wbr/>成果を出すからこそ豊かに暮らしていくこともできます。そんなふうに仕事そのものが楽しくなれば，<wbr/>人生の100％を楽しむことができるのです。<br />
+組織として圧倒的な成果を出すことと，<wbr/>そこで働く個人が圧倒的に楽しく仕事をすること――その両立こそが，<wbr/>実現したい組織の姿です。それを夢や妄想で終わらせず，<wbr/>1つ1つ試行錯誤しながら実践したこと，<wbr/>その結果として実現できたこと，<wbr/>その過程で得た気づきや考えをまとめたのが本書になります。</p>
+
+<p>「管理して働かせることに限界を感じている」<br />
+「社員たちを幸せにしたいけれどやり方がわからない」</p>
+
+<p>こうした悩みを抱えている経営者やマネージャーの方はもちろん，</p>
+
+<p>「今の働き方を続けていっていいんだろうか」<br />
+「人生100年の時代，<wbr/>この先どう働くと幸せだろう」</p>
+
+<p>そんなことを考え始めたビジネスパーソンの方にも読んでもらいたいと思って書きました。<br />
+本書がきっかけになって，<wbr/>組織や経営のあり方を見直す会社が増えて，<wbr/>1人でも多くの人が仕事を楽しむようになる社会が実現することを願っています。</p><aside class="author"><h3>倉貫義人（くらぬきよしひと）</h3><p>株式会社ソニックガーデンの創業者で代表取締役社長。1974年生まれ。京都府出身。<br />
+小学生からプログラミングを始め，<wbr/>天職と思える仕事に就こうと大手システム会社に入社するも，<wbr/>プログラマ軽視の風潮に挫折。転職も考えたが，<wbr/>会社を変えるためにアジャイル開発を日本に普及させる活動を個人的に開始。会社では，<wbr/>研究開発部門の立ち上げ，<wbr/>社内SNSの企画と開発，<wbr/>オープンソース化をおこない，<wbr/>自ら起業すべく社内ベンチャーを立ち上げるまでに至る。<br />
+しかし，<wbr/>経営の経験などなかったために当初は大苦戦。徹底的に管理する方法で新規事業はうまくいかないと反省。徐々に管理をなくしていくことで成果をあげる。最終的には事業を軌道に乗せて，<wbr/>その社内ベンチャーをマネジメント・<wbr/>バイ・<wbr/>アウト（経営者による買収）することで独立を果たして，<wbr/>株式会社ソニックガーデンを設立。<br />
+ソニックガーデンでは，<wbr/>月額定額＆成果契約の顧問サービス提供する新しい受託開発のビジネスモデル「納品のない受託開発」を展開。その斬新なビジネスモデルは，<wbr/>船井財団「グレートカンパニーアワード」にてユニークビジネスモデル賞を受賞。<br />
+会社経営においても，<wbr/>全社員リモートワーク，<wbr/>本社オフィスの撤廃，<wbr/>管理のない会社経営などさまざまな先進的な取り組みを実践。2018年には「働きがいのある会社ランキング」に初参加5位入賞と，<wbr/>「第3回ホワイト企業アワード」イクボス部門受賞。<br />
+著書に『「納品」をなくせばうまくいく』『リモートチームでうまくいく』（日本実業出版社）がある。<br />
+プログラマを誇れる仕事にすることがミッション。<br />
+「心はプログラマ，<wbr/>仕事は経営者」がモットー。<br />
+ブログ：<a href="https://kuranuki.sonicgarden.jp/">https://kuranuki.sonicgarden.jp/</a><br />
+Twitter：<a href="https://twitter.com/kuranuki">@kuranuki</a><br />
+Facebook：<a href="https://www.facebook.com/kuranuki">https://www.facebook.com/kuranuki</a>
+</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="38762">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>はじめに</h3>
+<ul class="toc">
+<li>創造的な仕事は管理しないほうが生産的になる</li>
+<li>自由に働く組織に変えるための3つのステップ</li>
+
+
+</ul>
+<h3>第1部　生産的に働く　～楽に成果をあげるために“見直す”</h3>
+
+<h4>やり方を見直す　～「ふりかえり」で抜本的に生産性を改善する</h4>
+<ul class="toc">
+<li>ふりかえりの4つのポイント</li>
+<li>継続することでチームに改善の意識が定着する</li>
+
+</ul>
+<h4>生産性を見直す　～「時間対効果」の高い仕事をする</h4>
+<ul class="toc">
+<li>気合いや根性でがんばらない</li>
+<li>「そもそも」からゴールを再設定して楽をする</li>
+<li>「やったほうがいい」ことはしない</li>
+<li>100％の品質と完成度は目指さない</li>
+<li>お金で解決できることにはお金を使う</li>
+<li>抱え込まずにさっさと相談しよう</li>
+
+</ul>
+<h4>タスクを見直す　～「タスクばらし」で小口化する</h4>
+<ul class="toc">
+<li>タスク管理ができていない3つの症状</li>
+<li>仕事の前に「タスクばらし」をする</li>
+<li>仕事をすることは，仕事を終えること</li>
+<li>無駄を省くための「小口化」の原則</li>
+<li>サラサラな組織</li>
+
+</ul>
+<h4>やる気を見直す　～無理に上げない，なくさない状況をつくる</h4>
+<ul class="toc">
+<li>作業ではなく仕事を任せる</li>
+<li>仕事の全体像と目的を伝える</li>
+<li>「仕事を依頼する」のではなく「問題の相談をする」</li>
+<li>社会にとって意義がある事業をする</li>
+<li>仕事の結果にフィードバックをする</li>
+<li>ちょっと難しい仕事に挑戦してもらう</li>
+<li>そもそも「やる気」に頼らない仕組みを作る</li>
+
+</ul>
+<h4>信頼関係を見直す　～「心理的安全性」を生み出す環境</h4>
+<ul class="toc">
+<li>リソースではなく，人間として見る</li>
+<li>ふりかえりができれば失敗してもいい</li>
+<li>信頼関係は一発勝負でなく少しずつ</li>
+<li>一貫性があること，論理の上に感情を乗せる</li>
+<li>情報格差をなくす</li>
+<li>互いの価値観や人生観も共有する</li>
+<li>心理的安全性を高めるための議論をする</li>
+
+</ul>
+<h4>会議を見直す　～口を動かすだけでなく，いっしょに手を動かす</h4>
+<ul class="toc">
+<li>報告と報知の会議はなくせる</li>
+<li>話したい内容は事前にやりとりしよう</li>
+<li>みんなといっしょに会議の成果物を作ろう</li>
+<li>会議の形にこだわらず協働作業にしてしまう</li>
+
+</ul>
+<h4>雑談を見直す　～ホウレンソウから「ザッソウ」へ</h4>
+<ul class="toc">
+<li>雑談が話しかける心理的ハードルを下げる</li>
+<li>ホウレンソウの隙間を雑談が埋める</li>
+<li>雑談をうまくするための3つのポイント</li>
+<li>雑談のように相談する</li>
+
+</ul>
+<h4>社内業務を見直す　～人手に頼らない「業務ハック」で改善を続ける</h4>
+<ul class="toc">
+<li>最初から完璧なものを目指さない</li>
+<li>人に頼る前に，コンピュータに頼る</li>
+<li>すべてをコンピュータにさせない半自動化</li>
+<li>大袈裟な業務改善よりも，小さく始める「業務ハック」</li>
+
+</ul>
+<h4>価値を見直す　～受託脳よりも提案脳で考える</h4>
+<ul class="toc">
+<li>「受託脳」：顧客に向き合うだけでは物足りない</li>
+<li>「提案脳」：顧客の顧客を見て自律的に提案できるようになる</li>
+
+
+</ul>
+<h3>第2部　自律的に働く　～人を支配しているものを“なくす”</h3>
+
+<h4>管理をなくす　～セルフマネジメントで働くチームをつくる</h4>
+<ul class="toc">
+<li>創造性の高い仕事では指示命令をしても成果が出ない</li>
+<li>セルフマネジメントの3つのレベル</li>
+<li>Lv1：自分に与えられた仕事を1人でできる</li>
+<li>Lv2：自分に与えられたリソースで成果を出す</li>
+<li>Lv3：自分で仕事を見つけて成果を出す</li>
+<li>互いに信頼しあうことで，自己組織化されたチームになれる</li>
+
+</ul>
+<h4>階層をなくす　～「ホラクラシー」組織を実現する仕組み</h4>
+<ul class="toc">
+<li>ヒエラルキー構造の3つの問題</li>
+<li>ヒエラルキーに代わる新しい組織構造「ホラクラシー」</li>
+<li>情報をオープンにして決裁をなくす</li>
+<li>ダイレクトにつないで思いを伝える</li>
+
+</ul>
+<h4>評価をなくす　～個人の成長と会社の貢献の「すりあわせ」をする</h4>
+<ul class="toc">
+<li>目標設定と評価がもたらす4つの問題</li>
+<li>そもそも評価で人を働かせるのはコストパフォーマンスが悪い</li>
+<li>評価をなくして，どうやって報酬や昇格を決めるのか</li>
+<li>評価がなくても公平かつがんばる秘密</li>
+<li>目標管理面談に代わる「すりあわせ」とYWTメソッド</li>
+
+</ul>
+<h4>数字をなくす　～組織のビジョンよりも自分のためならがんばれる</h4>
+<ul class="toc">
+<li>「数字を使ってコントロールしない」から自分の頭で考えるようになる</li>
+<li>売上目標はないがミッション・ビジョンはある</li>
+<li>モチベーションの源泉と自分のためにがんばる</li>
+<li>チームで思いをすりあわせるビジョン合宿と宣言大会</li>
+
+</ul>
+<h4>組織の壁をなくす　～信頼しあえる企業文化の育て方</h4>
+<ul class="toc">
+<li>セクショナリズムと部分最適の弊害</li>
+<li>「同じ組織やチームにいるのだから助け合おう」という企業文化を育てる</li>
+<li>企業文化はリーダーの行動から生まれる</li>
+<li>企業文化を語り合う機会をつくる</li>
+
+</ul>
+<h4>急募をなくす　～仕事があっても，いい人がいなければ採用しない</h4>
+<ul class="toc">
+<li>信頼関係を作ってから入社する採用プロセス</li>
+<li>管理にコストをかけるか，採用にコストをかけるか</li>
+<li>急募でいい人材は見つからないから，仕事よりも人が先</li>
+<li>いい人材を見極めるための採用のTIPS</li>
+<li>セルフマネジメントできる人材を見極める4つのポイント</li>
+
+</ul>
+<h4>教育をなくす　～自分の頭で考える社員の育て方</h4>
+<ul class="toc">
+<li>「人を育てる」なんて考えずに「育つ環境を与える」</li>
+<li>師匠が背中を見せる</li>
+<li>チャレンジする仕事を与える</li>
+<li>「ワークレビュー」で自分で考える力を身につける</li>
+
+</ul>
+<h4>制度をなくす　～本質ありきで考える「そもそも思考」</h4>
+<ul class="toc">
+<li>硬直化した組織はどうやって生まれてしまうのか</li>
+<li>ルールで縛るよりも価値観と良識に任せる</li>
+<li>ルールに従いながらロジックを組み立てる</li>
+<li>「なぜなぜ」よりも「そもそも」から考える</li>
+
+</ul>
+<h4>通勤をなくす　～働く場所に縛られない「リモートチーム」</h4>
+<ul class="toc">
+<li>ステップ①　ペーパーレスにする</li>
+<li>ステップ②　ツールをクラウド化する</li>
+<li>ステップ③　メールからチャットへ移行する</li>
+<li>ステップ④　テレビ会議を活用する</li>
+<li>ステップ⑤　音声をつなぎっぱなしにする</li>
+<li>ステップ⑥　バーチャルオフィスを導入する</li>
+<li>ステップ⑦　論理出社で全社員リモートワーク推奨にする</li>
+<li>ステップ⑧　物理オフィスを撤廃する</li>
+<li>ステップ⑨　オンラインファーストで考える</li>
+
+
+</ul>
+<h3>第3部　独創的に働く　～常識や慣習に従うことを“やめる”</h3>
+
+<h4>既存のビジネスモデルに従うのをやめる　～納品のない受託開発</h4>
+<ul class="toc">
+<li>「納品のない受託開発」の3つのポイント</li>
+<li>ブルー・オーシャン戦略で分析する「納品のない受託開発」</li>
+<li>信頼関係で成り立つサブスクリプションでうまくやっていくには</li>
+<li>ビジネスモデルが人をつくる</li>
+
+</ul>
+<h4>顧客を説得する営業をやめる　～対等な関係を作るマーケティング</h4>
+<ul class="toc">
+<li>営業できないエンジニアたちの苦悩</li>
+<li>セールスを不要にすることがマーケティング</li>
+<li>競争しない，戦わない，平和なマーケティング</li>
+<li>お金をかけずに知恵を出す</li>
+<li>ターゲットやキーワードを絞りすぎない</li>
+<li>企業である前に人であることを表現する</li>
+<li>お客様になる前に好きになってもらう</li>
+
+</ul>
+<h4>新規事業の指示命令をやめる　～部活から生まれるイノベーション</h4>
+<ul class="toc">
+<li>新規事業を立ち上げるのはなぜ難しいか</li>
+<li>タイムリミットがない「部活」が新規事業に変わる</li>
+<li>社内向けの「まかない」から生まれる新規事業</li>
+<li>無駄な時間と遊びからチャレンジは生まれる</li>
+
+</ul>
+<h4>規模を追求することをやめる　～組織の大きさもコントロールしない</h4>
+<ul class="toc">
+<li>会社が存在する目的とはなにか</li>
+<li>組織の大きさをコントロールしない</li>
+
+</ul>
+<h4>会社らしくすることをやめる　～文化をつないでいくコミュニティ</h4>
+<ul class="toc">
+<li>会社やチームが成立する2つの必須条件</li>
+<li>会社の枠を超えてチームになる「論理社員」</li>
+<li>フリーランスになるよりも自由に働ける会社</li>
+<li>文化を継承していくコミュニティのような会社</li>
+<li>管理をなくすことが究極のマネジメント</li>
+
+
+</ul>
+<h3>おわりに</h3>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2019 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2019\/978-4-297-10359-0","path":"\/dp\/ebook\/2019\/978-4-297-10359-0","targetId":"978-4-297-10359-0","parent":"\/dp\/genre\/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%BB%E3%83%9E%E3%83%8D%E3%83%BC","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

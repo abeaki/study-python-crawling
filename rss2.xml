@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>gihyo.jp：総合</title>
+ <link>https://gihyo.jp/</link>
+ <description>gihyo.jp（総合）の更新情報をお届けします</description>
+ <language>ja-jp</language>
+ <copyright>技術評論社 2019</copyright>
+ <lastBuildDate>Fri, 11 Jan 2019 14:22:00 +0900</lastBuildDate>
+ <image>
+  <url>https://gihyo.jp/assets/templates/gihyojp2007/image/header_logo_gihyo.gif</url>
+  <title>gihyo.jp</title>
+  <link>https://gihyo.jp/</link>
+ </image>
+ <item>
+  <title>知っておきたい！ 文字コードの基礎知識 ……ASCII，シフトJIS，Unicode etc. ── 新刊ピックアップ</title>
+  <link>https://gihyo.jp/book/pickup/2019/0006</link>
+  <description>ソフトウェアのエンジニア・開発者であれば，文字コードというものについて大なり小なり触れたことがあることでしょう。</description>
+  <pubDate>Fri, 11 Jan 2019 09:30:30 +0900</pubDate>
+  <category domain="https://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>https://gihyo.jp/book/pickup/2019/0006</guid> 
+  <author>矢野啓介</author>
+ </item>
+ <item>
+  <title>簡単にオリジナルの防災地図を作ろう！共有しよう！ ── 新刊ピックアップ</title>
+  <link>https://gihyo.jp/book/pickup/2019/0005</link>
+  <description>手軽に利用できるツールが増えてきました。たとえば，スマホの地図アプリ「Avenza Maps」，ビジュアル分析が得意な「Tableau Public」，作成した地図を無料で公開できる「ArcGIS Online」などがあります。</description>
+  <pubDate>Fri, 11 Jan 2019 09:30:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>https://gihyo.jp/book/pickup/2019/0005</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>2019年1月第2週号 1位は，評価が高いUIデザインのトレンド2019，気になるネタは，あけましてアップル・ショック 時価総額4位に後退 ── 週刊Webテク通信</title>
+  <link>https://gihyo.jp/design/clip/01/weekly-web-tech/201901/10</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2018年12月24日～2019年1月6日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 10 Jan 2019 09:32:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>https://gihyo.jp/design/clip/01/weekly-web-tech/201901/10</guid> 
+  <author>芦之由</author>
+ </item>
+ <item>
+  <title>電子出版の世界を“アップデート”していこう～2019年の先の電子出版ビジネスを考える ── 新春特別企画</title>
+  <link>https://gihyo.jp/design/column/newyear/2019/ebook-business-prospect</link>
+  <description>いよいよ平成最後の新年があけました。おめでとうございます。今年も2019年の電子出版ビジネスの展望をまとめてみます。</description>
+  <pubDate>Thu, 10 Jan 2019 09:32:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/column/newyear">新春特別企画</category>
+  <guid>https://gihyo.jp/design/column/newyear/2019/ebook-business-prospect</guid> 
+  <author>馮富久</author>
+ </item>
+ <item>
+  <title>2019年1月第1週　Essential Phoneの販売が終了に ── Android Weekly Topics</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/awt/201901/10</link>
+  <description>2019年，最初のAndroid関連のニュースをお届けします。</description>
+  <pubDate>Thu, 10 Jan 2019 09:31:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/awt">Android Weekly Topics</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/awt/201901/10</guid> 
+  <author>傍島康雄</author>
+ </item>
+ <item>
+  <title>キーワードは「信頼関係」―Facebookページの本当の使い方 ── 新刊ピックアップ</title>
+  <link>https://gihyo.jp/book/pickup/2019/0004</link>
+  <description>Facebookの中で，会社やお店，個人事業主の方が運営する「Facebookページ」。全世界で6,500万ページ以上存在し，すっかり一般に定着したFacebookページですが，重要なのはその「使い方」です。</description>
+  <pubDate>Thu, 10 Jan 2019 09:30:30 +0900</pubDate>
+  <category domain="https://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>https://gihyo.jp/book/pickup/2019/0004</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>手を動かしながら，楽しくマスター！ ── 新刊ピックアップ</title>
+  <link>https://gihyo.jp/book/pickup/2019/0003</link>
+  <description>「電子工作」と聞いて，どういったイメージが浮かぶでしょうか？</description>
+  <pubDate>Thu, 10 Jan 2019 09:30:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>https://gihyo.jp/book/pickup/2019/0003</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>2019年のDevOpsを支えるCI/CD動向 ── 新春特別企画</title>
+  <link>https://gihyo.jp/dev/column/newyear/2019/devops</link>
+  <description>2019年，DevOpsを支えるCI/CDは大きな変化のある局面にあると言えます。本稿では，このCI/CDに関する昨年のトピックを振り返り，今後の展開について考えてみます。</description>
+  <pubDate>Wed, 09 Jan 2019 09:49:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/column/newyear">新春特別企画</category>
+  <guid>https://gihyo.jp/dev/column/newyear/2019/devops</guid> 
+  <author>Takuya Noguchi</author>
+ </item>
+ <item>
+  <title>第552回　デスクトップ環境の2018-2019年 ── Ubuntu Weekly Recipe</title>
+  <link>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0552</link>
+  <description>新しい年の始めに，Ubuntuで使用できるさまざまなデスクトップ環境について2018年に起こったことと2019年に起こりそうなことを紹介します。</description>
+  <pubDate>Wed, 09 Jan 2019 09:42:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/serial/01/ubuntu-recipe">Ubuntu Weekly Recipe</category>
+  <guid>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0552</guid> 
+  <author>あわしろいくや</author>
+ </item>
+ <item>
+  <title>第41回　MySQL＆ PostgreSQLの2018年の主なニュース ── OSSデータベース取り取り時報</title>
+  <link>https://gihyo.jp/dev/serial/01/oss-db-various-news/0041</link>
+  <description>本年もOSSコンソーシアムデータベース部会のメンバーによる本連載をよろしくお願いいたします。今回はMySQLならびにPostgreSQLの2018年の主なニュースをご紹介してまいります。</description>
+  <pubDate>Wed, 09 Jan 2019 09:32:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/serial/01/oss-db-various-news">OSSデータベース取り取り時報</category>
+  <guid>https://gihyo.jp/dev/serial/01/oss-db-various-news/0041</guid> 
+  <author>山本文彦，梶山隆輔</author>
+ </item>
+ <item>
+  <title>WEB+DB PRESS Vol.107へのお便り ── はまちちゃんとわかばちゃんのREADER'S FORUM―読者のページ</title>
+  <link>https://gihyo.jp/dev/serial/01/readers-forum/vol108</link>
+  <description>こんにちはこんにちは!！ 今年の夏はあんなにも暑かったのに肌寒くなってきましたね。最近は暖房を兼ねてゲーミングPCを立ち上げて，PCゲームを楽しんでいるんですが，操作がWASDキーに加えてCTR キーを使うものが多く左手小指が痛くなります。</description>
+  <pubDate>Wed, 09 Jan 2019 09:31:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/serial/01/readers-forum">はまちちゃんとわかばちゃんのREADER'S FORUM―読者のページ</category>
+  <guid>https://gihyo.jp/dev/serial/01/readers-forum/vol108</guid> 
+  <author>はまちや2，竹原</author>
+ </item>
+ <item>
+  <title>検証！ 情報処理試験のフェイクニュース ── 新刊ピックアップ</title>
+  <link>https://gihyo.jp/book/pickup/2019/0002</link>
+  <description>フェイクニュースというと大げさですが，情報処理試験が近くなってくると散見される定番のうわさがあります。果たして信じていいのでしょうか？</description>
+  <pubDate>Wed, 09 Jan 2019 09:30:30 +0900</pubDate>
+  <category domain="https://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>https://gihyo.jp/book/pickup/2019/0002</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>プログラミング入門キットmicro:bitなら，親子で今すぐ作品作りが楽しめる！ ── 新刊ピックアップ</title>
+  <link>https://gihyo.jp/book/pickup/2019/0001</link>
+  <description>いよいよ2020年度から小学校でプログラミングが必修化することもあり，プログラミング教育熱が高まりつつある昨今です。</description>
+  <pubDate>Wed, 09 Jan 2019 09:30:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/book/pickup">新刊ピックアップ</category>
+  <guid>https://gihyo.jp/book/pickup/2019/0001</guid> 
+  <author>編集部</author>
+ </item>
+ <item>
+  <title>2019年1月9日　Linus，2019年の仕事始めに「Linux 5.0-rc1」を公開 ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/201901/09</link>
+  <description>Linus Torvaldsは1月6日（米国時間），年末にリリースしたLinux 4.20に続くカーネルのナンバリングを「Linux 5.0」にすることを発表。</description>
+  <pubDate>Wed, 09 Jan 2019 09:20:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/201901/09</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>LibreOfficeの2018年振り返りと2019年 ── 新春特別企画</title>
+  <link>https://gihyo.jp/lifestyle/column/newyear/2019/libreoffice-prospect</link>
+  <description>新年あけましておめでとうございます。今回はオープンソースのオフィススイートであるLibreOfficeにしぼって昨年あった象徴的な出来事を，特に新機能に関することを中心にいくつか紹介します。</description>
+  <pubDate>Tue, 08 Jan 2019 09:32:30 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/column/newyear">新春特別企画</category>
+  <guid>https://gihyo.jp/lifestyle/column/newyear/2019/libreoffice-prospect</guid> 
+  <author>あわしろいくや</author>
+ </item>
+ <item>
+  <title>2019年のWebアクセシビリティ ── 新春特別企画</title>
+  <link>https://gihyo.jp/design/column/newyear/2019/web-accessibility-prospect</link>
+  <description>あけましておめでとうございます。株式会社ミツエーリンクスの黒澤剛志です。本稿では，昨年に引き続いて，2019年のWebアクセシビリティの短期的に予測してみます。</description>
+  <pubDate>Tue, 08 Jan 2019 09:32:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/column/newyear">新春特別企画</category>
+  <guid>https://gihyo.jp/design/column/newyear/2019/web-accessibility-prospect</guid> 
+  <author>黒澤剛志</author>
+ </item>
+ <item>
+  <title>Apache Kafkaにも注目 ―Hadoop, Spark，分散処理フレームワークをめぐる2019年 ── 新春特別企画</title>
+  <link>https://gihyo.jp/dev/column/newyear/2019/hadoop-spark-kafka</link>
+  <description>あけましておめでとうございます。今年も大規模データ向けの分散処理フレームワークの展望についてご紹介します。</description>
+  <pubDate>Tue, 08 Jan 2019 09:31:30 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/column/newyear">新春特別企画</category>
+  <guid>https://gihyo.jp/dev/column/newyear/2019/hadoop-spark-kafka</guid> 
+  <author>下垣徹，佐々木徹，岩崎正剛，猿田浩輔</author>
+ </item>
+ <item>
+  <title>2018年のブロックチェーン振り返りと今後 ── 新春特別企画</title>
+  <link>https://gihyo.jp/dev/column/newyear/2019/blockchain</link>
+  <description>あけましておめでとうございます。LayerX CTOの榎本と申します。LayerXはブロックチェーン技術にフルコミットする会社です。本稿ではこの業界で働く中で感じた，昨年の振り返りと今後について話していきます。</description>
+  <pubDate>Tue, 08 Jan 2019 09:31:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/column/newyear">新春特別企画</category>
+  <guid>https://gihyo.jp/dev/column/newyear/2019/blockchain</guid> 
+  <author>榎本悠介</author>
+ </item>
+ <item>
+  <title>パスワードレス認証WebAuthnの勘所と対応状況 ── 新春特別企画</title>
+  <link>https://gihyo.jp/dev/column/newyear/2019/webauthn</link>
+  <description>本稿では，これからWebAuthnを学習しようとしている方に，認証初心者がつまづきそうな点や，興味深いと感じられる点として，「公開鍵暗号方式を利用した認証のしくみ」「デバイス（Authenticator）に紐づく秘密鍵」を中心に解説します。</description>
+  <pubDate>Tue, 08 Jan 2019 09:31:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/column/newyear">新春特別企画</category>
+  <guid>https://gihyo.jp/dev/column/newyear/2019/webauthn</guid> 
+  <author>@watahani</author>
+ </item>
+ <item>
+  <title>2019年のAIアシスタント ── 新春特別企画</title>
+  <link>https://gihyo.jp/dev/column/newyear/2019/ai-assistant-prospect</link>
+  <description>あけましておめでとうございます。よういちろうです。本記事では，平成から元号が変わる記念すべき今年，AIアシスタントがどうなっていくのか，その見通しを紹介します。</description>
+  <pubDate>Tue, 08 Jan 2019 09:30:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/column/newyear">新春特別企画</category>
+  <guid>https://gihyo.jp/dev/column/newyear/2019/ai-assistant-prospect</guid> 
+  <author>田中洋一郎</author>
+ </item>
+</channel>
+</rss>

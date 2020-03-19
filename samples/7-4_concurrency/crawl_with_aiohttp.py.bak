@@ -1,0 +1,62 @@
+import sys
+from concurrent.futures import ThreadPoolExecutor
+
+import asyncio
+import aiohttp
+
+import feedparser
+from bs4 import BeautifulSoup
+
+
+async def main():
+    # ホットエントリーのRSSからURLのリストを取得する
+    d = feedparser.parse('http://b.hatena.ne.jp/hotentry.rss')
+    urls = [entry.link for entry in d.entries]
+
+    with aiohttp.ClientSession() as session:
+        #futures = []
+        #for url in urls:
+        #    future = asyncio.ensure_future(fetch_and_scrape(session, url))
+        #    futures.append(future)
+
+        #for future in futures:
+        #    print(await future.result())
+
+        coroutines = []
+        for url in urls:
+            coroutine = fetch_and_scrape(session, url)
+            coroutines.append(coroutine)
+
+        # コルーチンを完了した順に返す
+        for coroutine in asyncio.as_completed(coroutines):
+            # コルーチンの結果を表示する
+            print(await coroutine)
+        # すべての完了を待って結果を表示する。順番は保証されない。
+        #done, _ = await asyncio.wait(coroutines)
+        #print(done)
+        # 結果を表示する。順番は保証されない。
+        #results = await asyncio.gather(*coroutines)
+        #for result in results:
+        #    print(result)
+
+
+async def fetch_and_scrape(session, url):
+    """
+    引数で指定したURLのページを取得して、URLとタイトルを含むdictを返す。
+    """
+
+    with await semaphore:
+        print('Start downloading', url, file=sys.stderr)
+        response = await session.get(url)
+        soup = BeautifulSoup(await response.read(), 'lxml')
+
+        print('Done', file=sys.stderr)
+        return {
+            'url': url,
+            'title': soup.title.text.strip(),
+        }
+
+if __name__ == '__main__':
+    semaphore = asyncio.Semaphore(3)
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
